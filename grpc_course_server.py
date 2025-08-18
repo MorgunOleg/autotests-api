@@ -42,6 +42,5 @@ def serve():
     server.wait_for_termination()
 
 
-# Запуск сервера при выполнении скрипта
 if __name__ == "__main__":
     serve()
