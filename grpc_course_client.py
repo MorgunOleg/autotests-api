@@ -1,5 +1,4 @@
 import grpc
-
 import course_service_pb2
 import course_service_pb2_grpc
 
