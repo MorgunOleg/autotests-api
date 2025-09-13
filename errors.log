@@ -1,0 +1,182 @@
+2025-09-13 13:50:29,231 [INFO] BEGIN (implicit)
+2025-09-13 13:50:29,232 [INFO] PRAGMA main.table_info("courses")
+2025-09-13 13:50:29,232 [INFO] [raw sql] ()
+2025-09-13 13:50:29,234 [INFO] PRAGMA main.table_info("exercises")
+2025-09-13 13:50:29,234 [INFO] [raw sql] ()
+2025-09-13 13:50:29,236 [INFO] PRAGMA main.table_info("files")
+2025-09-13 13:50:29,236 [INFO] [raw sql] ()
+2025-09-13 13:50:29,238 [INFO] PRAGMA main.table_info("users")
+2025-09-13 13:50:29,238 [INFO] [raw sql] ()
+2025-09-13 13:50:29,240 [INFO] COMMIT
+2025-09-13 13:50:39,637 [INFO] BEGIN (implicit)
+2025-09-13 13:50:39,645 [INFO] SELECT users.id, users.email, users.password, users.last_name, users.first_name, users.middle_name 
+FROM users 
+WHERE users.email = ?
+2025-09-13 13:50:39,646 [INFO] [generated in 0.00118s] ('test.1757746237.5465598@example.com',)
+2025-09-13 13:50:39,893 [INFO] INSERT INTO users (id, email, password, last_name, first_name, middle_name) VALUES (?, ?, ?, ?, ?, ?) RETURNING id, email, password, last_name, first_name, middle_name
+2025-09-13 13:50:39,894 [INFO] [generated in 0.00197s] ('e07d680d6cb8454284eb9902bce4b2a7', 'test.1757746237.5465598@example.com', '$2b$12$r/dB43OZ6p3Rn8V2Z/VU4uC.J0TZ/vBKA3oj.4zcm4nS/LAT7LyEi', 'string', 'string', 'string')
+2025-09-13 13:50:39,898 [INFO] COMMIT
+2025-09-13 13:50:42,452 [INFO] BEGIN (implicit)
+2025-09-13 13:50:42,453 [INFO] SELECT users.id, users.email, users.password, users.last_name, users.first_name, users.middle_name 
+FROM users 
+WHERE users.email = ?
+2025-09-13 13:50:42,453 [INFO] [generated in 0.00040s] ('test.1757746237.5465598@example.com',)
+2025-09-13 13:50:42,674 [INFO] ROLLBACK
+2025-09-13 13:50:45,720 [INFO] BEGIN (implicit)
+2025-09-13 13:50:45,722 [INFO] SELECT users.id, users.email, users.password, users.last_name, users.first_name, users.middle_name 
+FROM users 
+WHERE users.email = ?
+2025-09-13 13:50:45,722 [INFO] [generated in 0.00034s] ('test.1757746237.5465598@example.com',)
+2025-09-13 13:50:45,941 [INFO] ROLLBACK
+2025-09-13 13:50:48,524 [INFO] BEGIN (implicit)
+2025-09-13 13:50:48,525 [INFO] SELECT users.id, users.email, users.password, users.last_name, users.first_name, users.middle_name 
+FROM users 
+WHERE users.id = ?
+2025-09-13 13:50:48,526 [INFO] [generated in 0.00048s] ('e07d680d6cb8454284eb9902bce4b2a7',)
+2025-09-13 13:50:48,530 [INFO] INSERT INTO files (id, filename, directory) VALUES (?, ?, ?) RETURNING id, filename, directory
+2025-09-13 13:50:48,531 [INFO] [generated in 0.00086s] ('cc75dc4aa21240d5811df18a8eff6f1e', 'image.png', 'courses')
+2025-09-13 13:50:48,535 [INFO] COMMIT
+2025-09-13 13:50:50,601 [INFO] BEGIN (implicit)
+2025-09-13 13:50:50,602 [INFO] SELECT users.id, users.email, users.password, users.last_name, users.first_name, users.middle_name 
+FROM users 
+WHERE users.id = ?
+2025-09-13 13:50:50,603 [INFO] [generated in 0.00046s] ('e07d680d6cb8454284eb9902bce4b2a7',)
+2025-09-13 13:50:50,610 [INFO] INSERT INTO courses (id, title, max_score, min_score, description, estimated_time, preview_file_id, created_by_user_id) VALUES (?, ?, ?, ?, ?, ?, ?, ?) RETURNING id, title, max_score, min_score, description, estimated_time, preview_file_id, created_by_user_id
+2025-09-13 13:50:50,610 [INFO] [generated in 0.00072s] ('4f367c1a607c49e9b1631068b75c3a9d', 'Python', 100, 10, 'Python API course', '2 weeks', 'cc75dc4aa21240d5811df18a8eff6f1e', 'e07d680d6cb8454284eb9902bce4b2a7')
+2025-09-13 13:50:50,622 [INFO] COMMIT
+2025-09-13 13:50:50,629 [INFO] BEGIN (implicit)
+2025-09-13 13:50:50,632 [INFO] SELECT courses.id, courses.title, courses.max_score, courses.min_score, courses.description, courses.estimated_time, courses.preview_file_id, courses.created_by_user_id, files_1.id AS id_1, files_1.filename, files_1.directory, users_1.id AS id_2, users_1.email, users_1.password, users_1.last_name, users_1.first_name, users_1.middle_name 
+FROM courses LEFT OUTER JOIN files AS files_1 ON files_1.id = courses.preview_file_id LEFT OUTER JOIN users AS users_1 ON users_1.id = courses.created_by_user_id 
+WHERE courses.id = ?
+2025-09-13 13:50:50,633 [INFO] [generated in 0.00060s] ('4f367c1a607c49e9b1631068b75c3a9d',)
+2025-09-13 13:50:50,637 [INFO] ROLLBACK
+2025-09-13 13:50:53,225 [INFO] BEGIN (implicit)
+2025-09-13 13:50:53,227 [INFO] SELECT users.id, users.email, users.password, users.last_name, users.first_name, users.middle_name 
+FROM users 
+WHERE users.email = ?
+2025-09-13 13:50:53,227 [INFO] [generated in 0.00035s] ('test.1757746237.5465598@example.com',)
+2025-09-13 13:50:53,444 [INFO] ROLLBACK
+2025-09-13 13:50:56,002 [INFO] BEGIN (implicit)
+2025-09-13 13:50:56,003 [INFO] SELECT users.id, users.email, users.password, users.last_name, users.first_name, users.middle_name 
+FROM users 
+WHERE users.id = ?
+2025-09-13 13:50:56,004 [INFO] [generated in 0.00037s] ('e07d680d6cb8454284eb9902bce4b2a7',)
+2025-09-13 13:50:56,009 [INFO] INSERT INTO exercises (id, title, max_score, min_score, description, order_index, estimated_time, course_id) VALUES (?, ?, ?, ?, ?, ?, ?, ?) RETURNING id, title, max_score, min_score, description, order_index, estimated_time, course_id
+2025-09-13 13:50:56,010 [INFO] [generated in 0.00059s] ('9a98de5ffc0f40fb8e862a2153c7c2ba', 'Exercise 1', 5, 1, 'Exercise 1', 0, '5 minutes', '4f367c1a607c49e9b1631068b75c3a9d')
+2025-09-13 13:50:56,022 [INFO] COMMIT
+2025-09-13 13:50:56,039 [INFO] BEGIN (implicit)
+2025-09-13 13:50:56,040 [INFO] SELECT users.id, users.email, users.password, users.last_name, users.first_name, users.middle_name 
+FROM users 
+WHERE users.id = ?
+2025-09-13 13:50:56,041 [INFO] [generated in 0.00039s] ('e07d680d6cb8454284eb9902bce4b2a7',)
+2025-09-13 13:50:56,045 [INFO] SELECT exercises.id, exercises.title, exercises.max_score, exercises.min_score, exercises.description, exercises.order_index, exercises.estimated_time, exercises.course_id 
+FROM exercises 
+WHERE exercises.course_id = ?
+2025-09-13 13:50:56,046 [INFO] [generated in 0.00068s] ('4f367c1a607c49e9b1631068b75c3a9d',)
+2025-09-13 13:50:56,049 [INFO] ROLLBACK
+2025-09-13 13:50:56,059 [INFO] BEGIN (implicit)
+2025-09-13 13:50:56,061 [INFO] SELECT users.id, users.email, users.password, users.last_name, users.first_name, users.middle_name 
+FROM users 
+WHERE users.id = ?
+2025-09-13 13:50:56,061 [INFO] [generated in 0.00068s] ('e07d680d6cb8454284eb9902bce4b2a7',)
+2025-09-13 13:50:56,066 [INFO] SELECT exercises.id, exercises.title, exercises.max_score, exercises.min_score, exercises.description, exercises.order_index, exercises.estimated_time, exercises.course_id 
+FROM exercises 
+WHERE exercises.id = ?
+2025-09-13 13:50:56,066 [INFO] [generated in 0.00068s] ('9a98de5ffc0f40fb8e862a2153c7c2ba',)
+2025-09-13 13:50:56,070 [INFO] ROLLBACK
+2025-09-13 13:50:56,081 [INFO] BEGIN (implicit)
+2025-09-13 13:50:56,083 [INFO] SELECT users.id, users.email, users.password, users.last_name, users.first_name, users.middle_name 
+FROM users 
+WHERE users.id = ?
+2025-09-13 13:50:56,083 [INFO] [generated in 0.00075s] ('e07d680d6cb8454284eb9902bce4b2a7',)
+2025-09-13 13:50:56,089 [INFO] ROLLBACK
+2025-09-13 13:50:56,108 [ERROR] Unhandled exception:
+Traceback (most recent call last):
+  File "C:\Code\PycharmProjects\qa-automation-engineer-api-course\venv\Lib\site-packages\starlette\middleware\base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Code\PycharmProjects\qa-automation-engineer-api-course\venv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Code\PycharmProjects\qa-automation-engineer-api-course\main.py", line 26, in log_exceptions
+    return await call_next(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Code\PycharmProjects\qa-automation-engineer-api-course\venv\Lib\site-packages\starlette\middleware\base.py", line 154, in call_next
+    raise app_exc
+  File "C:\Code\PycharmProjects\qa-automation-engineer-api-course\venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Code\PycharmProjects\qa-automation-engineer-api-course\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Code\PycharmProjects\qa-automation-engineer-api-course\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Code\PycharmProjects\qa-automation-engineer-api-course\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Code\PycharmProjects\qa-automation-engineer-api-course\venv\Lib\site-packages\starlette\routing.py", line 715, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Code\PycharmProjects\qa-automation-engineer-api-course\venv\Lib\site-packages\starlette\routing.py", line 735, in app
+    await route.handle(scope, receive, send)
+  File "C:\Code\PycharmProjects\qa-automation-engineer-api-course\venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Code\PycharmProjects\qa-automation-engineer-api-course\venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Code\PycharmProjects\qa-automation-engineer-api-course\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Code\PycharmProjects\qa-automation-engineer-api-course\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Code\PycharmProjects\qa-automation-engineer-api-course\venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Code\PycharmProjects\qa-automation-engineer-api-course\venv\Lib\site-packages\fastapi\routing.py", line 291, in app
+    solved_result = await solve_dependencies(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Code\PycharmProjects\qa-automation-engineer-api-course\venv\Lib\site-packages\fastapi\dependencies\utils.py", line 666, in solve_dependencies
+    ) = await request_body_to_args(  # body_params checked above
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Code\PycharmProjects\qa-automation-engineer-api-course\venv\Lib\site-packages\fastapi\dependencies\utils.py", line 898, in request_body_to_args
+    v_, errors_ = _validate_value_with_model_field(
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        field=first_field, value=body_to_process, values=values, loc=loc
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Code\PycharmProjects\qa-automation-engineer-api-course\venv\Lib\site-packages\fastapi\dependencies\utils.py", line 706, in _validate_value_with_model_field
+    v_, errors_ = field.validate(value, values, loc=loc)
+                  ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Code\PycharmProjects\qa-automation-engineer-api-course\venv\Lib\site-packages\fastapi\_compat.py", line 129, in validate
+    self._type_adapter.validate_python(value, from_attributes=True),
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Code\PycharmProjects\qa-automation-engineer-api-course\venv\Lib\site-packages\pydantic\type_adapter.py", line 412, in validate_python
+    return self.validator.validate_python(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        object,
+        ^^^^^^^
+    ...<3 lines>...
+        allow_partial=experimental_allow_partial,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Code\PycharmProjects\qa-automation-engineer-api-course\apps\exercises\schema\exercises.py", line 48, in validate_model
+    if self.max_score < self.min_score:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'int' and 'NoneType'
+
+2025-09-13 13:53:28,409 [INFO] BEGIN (implicit)
+2025-09-13 13:53:28,410 [INFO] PRAGMA main.table_info("courses")
+2025-09-13 13:53:28,410 [INFO] [raw sql] ()
+2025-09-13 13:53:28,411 [INFO] PRAGMA main.table_info("exercises")
+2025-09-13 13:53:28,412 [INFO] [raw sql] ()
+2025-09-13 13:53:28,413 [INFO] PRAGMA main.table_info("files")
+2025-09-13 13:53:28,413 [INFO] [raw sql] ()
+2025-09-13 13:53:28,414 [INFO] PRAGMA main.table_info("users")
+2025-09-13 13:53:28,415 [INFO] [raw sql] ()
+2025-09-13 13:53:28,416 [INFO] COMMIT
