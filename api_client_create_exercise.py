@@ -5,6 +5,7 @@ from clients.files.files_client import get_files_client, CreateFileRequestDict
 from clients.private_http_builder import AuthenticationUserDict
 from clients.users.public_users_client import get_public_users_client, CreateUserRequestDict
 from tools.fakers import get_random_email
+from pydantic import IPv4Ad
 
 public_users_client = get_public_users_client()
 
@@ -77,12 +78,8 @@ print('Get exercise data:', get_exercise_response)
 # Обновление задания (тестовое)
 update_exercise_request = UpdateExerciseRequestDict(
     title="Exercise 1.1",
-    maxScore=5,
-    minScore=1,
-    orderIndex=0,
-    description="Updated exercise 1",
-    estimatedTime="5 minutes"
-)  # Из-за ошибки 500 необходимо указание всех полей в запросе, включая неизменяемые
+    description="Updated exercise 1"
+)
 update_exercise_response = exercises_client.update_exercise(
     exercise_id,
     update_exercise_request
