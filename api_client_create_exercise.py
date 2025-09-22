@@ -84,11 +84,7 @@ print('Get exercise data:', get_exercise_response)
 # Обновление задания (тестовое)
 update_exercise_request = UpdateExerciseRequestSchema(
     title="Exercise 1.1",
-    max_score=5,
-    min_score=1,
-    order_index=0,
-    description="Updated exercise 1",
-    estimated_time="5 minutes"
+    description="Updated exercise 1"
 )
 update_exercise_response = exercises_client.update_exercise(
     exercise_id,

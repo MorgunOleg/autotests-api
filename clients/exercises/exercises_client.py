@@ -55,7 +55,10 @@ class ExercisesClient(APIClient):
         description, estimatedTime.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.patch(f"/api/v1/exercises/{exercise_id}", json=request.model_dump(by_alias=True))
+        return self.patch(
+            f"/api/v1/exercises/{exercise_id}",
+            json=request.model_dump(by_alias=True, exclude_none=True, exclude_unset=True)
+        )
 
     def delete_exercise_api(self, exercise_id: str) -> Response:
         """
