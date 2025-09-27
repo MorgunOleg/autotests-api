@@ -1,82 +1,77 @@
-from pydantic import BaseModel, Field, ConfigDict
+from pydantic import Field
+
+from tools.assertions.schema import CamelModel
+from tools.fakers import fake
 
 
-class ExerciseSchema(BaseModel):
+class ExerciseSchema(CamelModel):
     """
     Описание структуры задания.
     """
-    model_config = ConfigDict(validate_by_name=True)
-
     id: str
     title: str
-    course_id: str = Field(alias="courseId")
-    max_score: int = Field(alias="maxScore")
-    min_score: int = Field(alias="minScore")
-    order_index: int = Field(alias="orderIndex")
+    course_id: str
+    max_score: int
+    min_score: int
+    order_index: int
     description: str
-    estimated_time: str = Field(alias="estimatedTime")
+    estimated_time: str
 
 
-class GetExerciseResponseSchema(BaseModel):
+class GetExerciseResponseSchema(CamelModel):
     """
     Описание структуры ответа на получение задания.
     """
     exercise: ExerciseSchema
 
 
-class GetExercisesQuerySchema(BaseModel):
+class GetExercisesQuerySchema(CamelModel):
     """
     Описание структуры запроса на получение списка заданий определенного курса.
     """
-    model_config = ConfigDict(validate_by_name=True)
-
-    course_id: str = Field(alias="courseId")
+    course_id: str
 
 
-class GetExercisesResponseSchema(BaseModel):
+class GetExercisesResponseSchema(CamelModel):
     """
     Описание структуры ответа на получение списка заданий.
     """
     exercises: list[ExerciseSchema]
 
 
-class CreateExerciseRequestSchema(BaseModel):
+class CreateExerciseRequestSchema(CamelModel):
     """
     Описание структуры запроса на создание задания.
     """
-    model_config = ConfigDict(validate_by_name=True)
-
-    title: str
-    course_id: str = Field(alias="courseId")
-    max_score: int | None = Field(alias="maxScore")
-    min_score: int | None = Field(alias="minScore")
-    order_index: int = Field(alias="orderIndex")
-    description: str
-    estimated_time: str | None = Field(alias="estimatedTime")
+    title: str = Field(default_factory=fake.sentence)
+    course_id: str = Field(default_factory=fake.uuid4)
+    max_score: int | None = Field(default_factory=fake.max_score)
+    min_score: int | None = Field(default_factory=fake.min_score)
+    order_index: int = Field(default_factory=fake.integer)
+    description: str = Field(default_factory=fake.text)
+    estimated_time: str | None = Field(default_factory=fake.estimated_time)
 
 
-class CreateExerciseResponseSchema(BaseModel):
+class CreateExerciseResponseSchema(CamelModel):
     """
     Описание структуры ответа создания задания.
     """
     exercise: ExerciseSchema
 
 
-class UpdateExerciseRequestSchema(BaseModel):
+class UpdateExerciseRequestSchema(CamelModel):
     """
     Описание структуры запроса на обновление данных задания.
     """
-    model_config = ConfigDict(validate_by_name=True)
-
     title: str | None = None
-    max_score: int | None = Field(alias="maxScore", default=None)
-    min_score: int | None = Field(alias="minScore", default=None)
-    order_index: int | None = Field(alias="orderIndex", default=None)
+    max_score: int | None = None
+    min_score: int | None = None
+    order_index: int | None = None
     description: str | None = None
-    estimated_time: str | None = Field(alias="estimatedTime", default=None)
+    estimated_time: str | None = None
 
 
-class UpdateExerciseResponseSchema(BaseModel):
+class UpdateExerciseResponseSchema(CamelModel):
     """
     Описание структуры ответа обновления задания.
     """

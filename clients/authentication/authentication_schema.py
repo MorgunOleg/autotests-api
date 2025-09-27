@@ -1,44 +1,35 @@
-from pydantic import BaseModel, ConfigDict, Field
-# from pydantic.alias_generators import to_camel
-#
-#
-# class CamelModel(BaseModel):
-#     """
-#     Базовый класс для Pydantic моделей с поддержкой camelCase alias.
-#     """
-#     model_config = ConfigDict(
-#         alias_generator=to_camel,
-#         validate_by_name=True,
-#         serialize_by_alias=True
-#     )
+from pydantic import Field
+
+from tools.assertions.schema import CamelModel
+from tools.fakers import fake
 
 
-class TokenSchema(BaseModel):
+class TokenSchema(CamelModel):
     """
     Описание структуры аутентификационных токенов.
     """
-    token_type: str = Field(alias="tokenType")
-    access_token: str = Field(alias="accessToken")
-    refresh_token: str = Field(alias="refreshToken")
+    token_type: str
+    access_token: str
+    refresh_token: str
 
 
-class LoginRequestSchema(BaseModel):
+class LoginRequestSchema(CamelModel):
     """
     Описание структуры запроса на аутентификацию.
     """
-    email: str
-    password: str
+    email: str = Field(default_factory=fake.email())
+    password: str = Field(default_factory=fake.password())
 
 
-class LoginResponseSchema(BaseModel):
+class LoginResponseSchema(CamelModel):
     """
     Описание структуры ответа аутентификации.
     """
     token: TokenSchema
 
 
-class RefreshRequestSchema(BaseModel):
+class RefreshRequestSchema(CamelModel):
     """
     Описание структуры запроса для обновления токена.
     """
-    refresh_token: str = Field(alias="refreshToken")
+    refresh_token: str = Field(default_factory=fake.sentence())
