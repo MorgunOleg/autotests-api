@@ -24,6 +24,7 @@ def test_slow():
 @pytest.mark.regression
 class TestUserAuthentication:
 
+    @pytest.mark.skip(reason="Тестовая фикстура")
     @pytest.mark.smoke
     def test_login(self):
         pass
@@ -46,6 +47,7 @@ def test_critical_login():
 @pytest.mark.api
 class TestUserInterface:
 
+    @pytest.mark.skip(reason="Тестовая фикстура")
     @pytest.mark.smoke
     @pytest.mark.critical
     def test_login(self):
