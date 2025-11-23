@@ -28,3 +28,10 @@ class CreateFileResponseSchema(CamelModel):
     Описание структуры ответа создания файла.
     """
     file: FileSchema
+
+
+class GetFileResponseSchema(CamelModel):
+    """
+    Описание структуры запроса получения файла.
+    """
+    file: FileSchema
