@@ -26,6 +26,13 @@ class GetCoursesQuerySchema(CamelModel):
     user_id: str
 
 
+class GetCoursesResponseSchema(CamelModel):
+    """
+    Описание структуры ответа на получение списка курсов.
+    """
+    courses: list[CourseSchema]
+
+
 class CreateCourseRequestSchema(CamelModel):
     """
     Описание структуры запроса на создание курса.
@@ -55,3 +62,10 @@ class UpdateCourseRequestSchema(CamelModel):
     min_score: int | None = Field(default_factory=fake.min_score)
     description: str | None = Field(default_factory=fake.text)
     estimated_time: str | None = Field(default_factory=fake.estimated_time)
+
+
+class UpdateCourseResponseSchema(CamelModel):
+    """
+    Описание структуры ответа обновления курса.
+    """
+    course: CourseSchema
