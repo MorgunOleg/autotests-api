@@ -2,24 +2,10 @@ from http import HTTPStatus
 
 import pytest
 
-from clients.courses.courses_client import CoursesClient
-from clients.courses.courses_schema import (
-    GetCoursesQuerySchema,
-    GetCoursesResponseSchema,
-    CreateCourseRequestSchema,
-    CreateCourseResponseSchema,
-    UpdateCourseRequestSchema,
-    UpdateCourseResponseSchema
-)
 from clients.exercises.exercises_client import ExercisesClient
 from clients.exercises.exercises_schema import CreateExerciseRequestSchema, CreateExerciseResponseSchema
 from fixtures.courses import CourseFixture
-from fixtures.exercises import ExerciseFixture
-from fixtures.files import FileFixture
-from fixtures.users import UserFixture
 from tools.assertions.base import assert_status_code
-from tools.assertions.courses import assert_create_course_response, assert_get_courses_response, \
-    assert_update_course_response
 from tools.assertions.exercises import assert_create_exercise_response
 from tools.assertions.schema import validate_json_schema
 
