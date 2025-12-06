@@ -63,12 +63,12 @@ class UpdateExerciseRequestSchema(CamelModel):
     """
     Описание структуры запроса на обновление данных задания.
     """
-    title: str | None = None
-    max_score: int | None = None
-    min_score: int | None = None
-    order_index: int | None = None
-    description: str | None = None
-    estimated_time: str | None = None
+    title: str | None = Field(default_factory=fake.sentence)
+    max_score: int | None = Field(default_factory=fake.max_score)
+    min_score: int | None = Field(default_factory=fake.min_score)
+    order_index: int | None = Field(default_factory=fake.integer)
+    description: str | None = Field(default_factory=fake.text)
+    estimated_time: str | None = Field(default_factory=fake.estimated_time)
 
 
 class UpdateExerciseResponseSchema(CamelModel):
