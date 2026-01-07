@@ -1,3 +1,4 @@
+import pydantic
 from pydantic import HttpUrl, Field
 
 from tools.assertions.schema import CamelModel
@@ -20,7 +21,7 @@ class CreateFileRequestSchema(CamelModel):
     """
     filename: str = Field(default_factory=lambda: f"{fake.uuid4()}.png")
     directory: str = Field(default="tests")
-    upload_file: str
+    upload_file: pydantic.FilePath
 
 
 class CreateFileResponseSchema(CamelModel):
