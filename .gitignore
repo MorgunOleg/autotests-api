@@ -1,0 +1,13 @@
+# my_files
+.commands
+
+# pycharm
+.idea
+
+# python
+.venv
+__pycache__
+
+# allure
+allure-results
+allure-report
