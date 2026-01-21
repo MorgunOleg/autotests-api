@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIxVDE1OjQ2OjMzLjQ3ODQ4NSIsInVzZXJfaWQiOiJiNzcxNDliNS1mNGM2LTQwZGMtOWExMi0xY2MwZmFmZWI2YzUifQ.9HYBCqr0vu1KVgVeDaMnrRVyjPtXSN6wnebHL_JN8Ew' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Truth place down study up only young.","maxScore":66,"minScore":12,"description":"Ready doctor experience. Big culture law near. Forget single else share away picture.\nExecutive knowledge customer. Partner fly under.","estimatedTime":"6 weeks","previewFileId":"e40174de-e76b-4d54-a1a1-b6d2ee2f8050","createdByUserId":"b77149b5-f4c6-40dc-9a12-1cc0fafeb6c5"}'

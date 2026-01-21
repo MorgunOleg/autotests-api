@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIxVDE1OjQ2OjM3Ljk5NjAzNyIsInVzZXJfaWQiOiI3OTk4MWFhYi1iYjIxLTRmMmItYjdlYi1hNmQzMTYzYThiOGEifQ.c8SZ9KSYvWGqNHtQl9E4P3YZOYdJgdSNG1QbEOImiBo' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Century professional TV her.","maxScore":77,"minScore":29,"description":"Daughter start believe. Mrs pressure need stock owner college me.\nAll movie wife image same. Draw practice leg early activity bar. Soldier moment mind tough term.","estimatedTime":"3 weeks","previewFileId":"e726124f-9a88-4a93-942f-eb07bcdb47b1","createdByUserId":"79981aab-bb21-4f2b-b7eb-a6d3163a8b8a"}'

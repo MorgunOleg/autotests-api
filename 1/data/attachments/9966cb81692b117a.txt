@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIxVDE1OjQ2OjM0Ljk1NDU0NyIsInVzZXJfaWQiOiI4NDE4Yzg2Zi05Y2MwLTQ3ZmItYTc2OS1hNGJlMzhjNjdmYTgifQ.RHwSOdjG0Wu6lphBqEcEubYQeg_7dJLVzUXGOCjWA8w' \
+  -H 'content-length: 305' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Young stop account.","maxScore":71,"minScore":12,"description":"East wall water decade. Land know throughout.\nEverybody sit type certainly front pressure.","estimatedTime":"4 weeks","previewFileId":"3f34cb23-5241-4a81-a9a1-970d000bac15","createdByUserId":"8418c86f-9cc0-47fb-a769-a4be38c67fa8"}'

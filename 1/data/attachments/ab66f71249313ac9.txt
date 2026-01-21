@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/abf81cc3-210b-47f3-8d2e-e31953d889da' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIxVDE1OjQ2OjM0Ljk1NDU0NyIsInVzZXJfaWQiOiI4NDE4Yzg2Zi05Y2MwLTQ3ZmItYTc2OS1hNGJlMzhjNjdmYTgifQ.RHwSOdjG0Wu6lphBqEcEubYQeg_7dJLVzUXGOCjWA8w' \
+  -H 'content-length: 240' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Husband wish difficult with who.","maxScore":51,"minScore":27,"description":"Later adult clearly couple not sell by. I crime interesting American once as. Bag public way southern address person pattern.","estimatedTime":"4 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIxVDE1OjQ2OjM3Ljk5NjAzNyIsInVzZXJfaWQiOiI3OTk4MWFhYi1iYjIxLTRmMmItYjdlYi1hNmQzMTYzYThiOGEifQ.c8SZ9KSYvWGqNHtQl9E4P3YZOYdJgdSNG1QbEOImiBo' \
+  -H 'content-length: 303' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cost century paper follow something.","courseId":"69ab1ccb-5efc-4e2c-aa0a-a5b2a7277ac7","maxScore":73,"minScore":17,"orderIndex":7,"description":"Rule organization fear bank politics too age. Activity beyond because oil.\nVisit summer share. Often reveal head onto.","estimatedTime":"2 weeks"}'

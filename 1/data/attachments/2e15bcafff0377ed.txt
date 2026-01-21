@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/b4690fcc-0253-4610-8119-614097a4505e' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIxVDE1OjQ2OjM2LjE2NzUxNCIsInVzZXJfaWQiOiIxNmVjMzAyMC0zNDVjLTRkNjEtOTc0MS01YjgwYzFkYTE5ZmYifQ.eDD_GK8YkUjldXL0WuK3ZxjesvhztzDj6RLSufTnaDM' \
+  -H 'content-length: 274' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cover new often miss front only.","maxScore":55,"minScore":28,"orderIndex":17,"description":"Themselves campaign center hot need treatment could. Member structure bad throughout game.\nHand go represent figure. Carry party century upon.","estimatedTime":"2 weeks"}'
