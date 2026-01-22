@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIyVDE2OjA1OjI1Ljk5MDg4MCIsInVzZXJfaWQiOiI3OTUwYzJlYy0yMGZmLTQxNzAtYTg3My02MTVkYTlkMTk5YjkifQ.SOB7ecfWpCO13M8QgPn4Wb814EQiDQ9kTx2ZpDBaZsY' \
+  -H 'content-length: 365' \
+  -H 'content-type: application/json' \
+  -d '{"title":"On government with leader.","courseId":"086e90d9-e9ce-443b-b8e4-36691d3b282b","maxScore":51,"minScore":9,"orderIndex":50,"description":"Police break play election consider law people. Herself among perhaps cause. Hit three human get tree me behind.\nCivil old painting myself quality trial. Police from reflect trial wish firm.","estimatedTime":"3 weeks"}'

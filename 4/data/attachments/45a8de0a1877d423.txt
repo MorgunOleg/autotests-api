@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/exercises/9bd14c6b-1316-4ae7-9b68-a93f6d693b82
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises/9bd14c6b-1316-4ae7-9b68-a93f6d693b82
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:53 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:29 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to 9bd14c6b-1316-4ae7-9b68-a93f6d693b82
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Great deep new own time standard picture.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to 9623bd4c-aac5-4cd0-90c2-878a9f163b75
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 54
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 15
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 100
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Imagine tree summer. Economic nature bank do leg why. War cut probably film. Production soldier first instead record.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:35 Validating JSON schema

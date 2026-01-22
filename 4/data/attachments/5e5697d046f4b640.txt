@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIyVDE2OjA1OjI0Ljc1NzA4NSIsInVzZXJfaWQiOiJhZGE1MWZjYy05N2UzLTRhNWItODBhYy1kN2Q5YWI2ZWRkZjMifQ.jURwcERaC1tLHyI8I5XTdkyFsBIKGoeVRRBxrMcPyuU' \
+  -H 'content-length: 320' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cause nature level nation.","maxScore":76,"minScore":11,"description":"Partner specific entire sure author respond miss. Enjoy stop organization enough interest group so.","estimatedTime":"3 weeks","previewFileId":"08ef1c91-dcb8-494f-b8d6-1023a70a5736","createdByUserId":"ada51fcc-97e3-4a5b-80ac-d7d9ab6eddf3"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIyVDE2OjA1OjI0Ljc1NzA4NSIsInVzZXJfaWQiOiJhZGE1MWZjYy05N2UzLTRhNWItODBhYy1kN2Q5YWI2ZWRkZjMifQ.jURwcERaC1tLHyI8I5XTdkyFsBIKGoeVRRBxrMcPyuU' \
+  -H 'content-length: 296' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Debate goal assume.","courseId":"58d5ec01-d282-4ada-9d09-dc2e8bee133c","maxScore":89,"minScore":30,"orderIndex":84,"description":"Cause big indeed machine kid his. Various artist term international name five. This serious follow pattern person surface order.","estimatedTime":"9 weeks"}'

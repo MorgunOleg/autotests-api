@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIyVDE2OjA1OjI1LjM0Mjg3NSIsInVzZXJfaWQiOiIyNTNiODZhZS0wY2M5LTRiMmQtODQ0MC03NWYxNGQ2YzdiY2MifQ.8oJDIu5DclkdC-K7hx_Cy3ktaGuK55y205Yb9-KbCbw' \
+  -H 'content-length: 422' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Trouble wife program these career study agreement.","maxScore":72,"minScore":23,"description":"Possible this poor dark fish vote. Purpose him husband sign kitchen. Art material myself job.\nMorning source art exist campaign PM main. Put war gun art. Town teach near music.","estimatedTime":"4 weeks","previewFileId":"7152ddf7-cb8e-4f16-972c-f88eb7b69fe0","createdByUserId":"253b86ae-0cc9-4b2d-8440-75f14d6c7bcc"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIyVDE2OjA1OjIyLjMwODgzMSIsInVzZXJfaWQiOiIwOWZkNTE4OS03ZThmLTQ5NzItOTU2OC1hNjI3ZWQ4NjY3ZTUifQ.FEi03mJWoISoglcQcCEMMF_fnLkJaOsou0oQ3SlVYtE' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sign activity common may control of.","maxScore":58,"minScore":28,"description":"Out area ten data wind right girl. Range half camera dream military worry.\nContinue may left top once Congress. Remember amount camera responsibility. Commercial various glass these.","estimatedTime":"1 weeks","previewFileId":"835d7e3a-a790-4b83-9ca5-b5791d3345b7","createdByUserId":"09fd5189-7e8f-4972-9568-a627ed8667e5"}'

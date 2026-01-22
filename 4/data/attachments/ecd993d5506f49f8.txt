@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIyVDE2OjA1OjIyLjg4ODIyOCIsInVzZXJfaWQiOiI4ZTlkZGJlNy04ZDQyLTQyNjEtOWQ0Zi1iN2VjMTY3MDM0YWIifQ.AuXsBuW-cIIV1rKD07yZ7A2NscMWPkSV3DKg-bh8K1M' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Consider crime drive add quickly plant.","maxScore":59,"minScore":11,"description":"Million number wide. One figure artist smile everyone. Share sing improve finish hair interesting music itself.\nDirector agent although yet look radio. Teacher around appear.","estimatedTime":"1 weeks","previewFileId":"83369555-4959-4026-96aa-d73e27e7a107","createdByUserId":"8e9ddbe7-8d42-4261-9d4f-b7ec167034ab"}'

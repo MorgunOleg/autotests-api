@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIyVDE2OjA1OjI2LjYxODA4MCIsInVzZXJfaWQiOiJlYzI1NWRlZC02MzJkLTQ5MDktYmRjMS05ZTQxZDE2MzYyZGMifQ._NNMGNkXWH03AZARG-Skt3zpbWQCsFFI94VPuVoCdRk' \
+  -H 'content-length: 391' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Talk painting necessary even compare indeed trial.","maxScore":57,"minScore":1,"description":"Expert sort anything particular. Establish drive as again smile southern high. Lose daughter easy score.\nThus allow send option. Arrive just wind.","estimatedTime":"9 weeks","previewFileId":"88b61618-0b7f-4db4-9c6e-8753053d2551","createdByUserId":"ec255ded-632d-4909-bdc1-9e41d16362dc"}'
