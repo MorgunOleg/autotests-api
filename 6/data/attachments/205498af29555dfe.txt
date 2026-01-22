@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIyVDE2OjI2OjM0LjU5NDYxMSIsInVzZXJfaWQiOiJjMjBjYTAwYi1jM2Q0LTRlZmEtOWRjOC1hNzk3YmRjM2RmZTMifQ.RCyTorNwYD21ciDpeVHY_wKFn6PINz2qx35qcI-b_GA' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"On player memory either wall skin.","maxScore":74,"minScore":3,"description":"Evening less pattern enter Democrat.\nCost success plant large capital discussion. School bar by space.\nKnow begin yes site sure argue.","estimatedTime":"2 weeks","previewFileId":"762a37d7-0e0c-41b2-ad5d-a9882923c4b7","createdByUserId":"c20ca00b-c3d4-4efa-9dc8-a797bdc3dfe3"}'

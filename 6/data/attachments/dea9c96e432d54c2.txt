@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIyVDE2OjI2OjM1LjgwNTcwNCIsInVzZXJfaWQiOiJkYzE3OWE3NC0yMGI3LTQwMGYtYTMzZi01ZmI1MDNlNzBjZDIifQ.aUFuBbItrU3eCzrRzC15yOMnzJqoMX80OfxAI_WOl2Y' \
+  -H 'content-length: 336' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Black specific six hold water president.","maxScore":88,"minScore":23,"description":"Weight decade stuff help growth follow game effect. Town goal bed too create. Relate table executive.","estimatedTime":"9 weeks","previewFileId":"e173c5bf-ee76-418f-8f1e-e160fe399d09","createdByUserId":"dc179a74-20b7-400f-a33f-5fb503e70cd2"}'

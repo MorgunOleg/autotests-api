@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIyVDE2OjI2OjM3Ljk1Njg3MSIsInVzZXJfaWQiOiIwZDg0NGU4Ni1iNzA2LTQwM2ItOTRhOC1kN2M3ZDVhMDk3YzUifQ.QeikZIt2YYydfFZ9uxt3ndFO7-c-7Xv4PJDVGhMfnlg' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rather agreement cultural necessary unit family.","maxScore":92,"minScore":7,"description":"National second reality. Keep he public successful speak among. Health good down cover receive.\nGet recognize event officer early language poor. Hair the news health cost mother song.","estimatedTime":"4 weeks","previewFileId":"dab73bd0-4e8c-4c4a-899a-a54446d05546","createdByUserId":"0d844e86-b706-403b-94a8-d7c7d5a097c5"}'
