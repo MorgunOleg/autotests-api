@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIyVDE2OjA4OjEwLjk3MDMyNyIsInVzZXJfaWQiOiI2ZWVmZmRhMi1hZGIyLTRkZWUtODY4Yy01NjZmODM3MmY2ZjIifQ.X28wGTxwYs_qAI1rc-t1BZHsOd77GRtMlq4HnzOVir4' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wall market arrive sign structure summer floor.","courseId":"89a18128-d48d-45d5-8af7-6b02ab763d7a","maxScore":95,"minScore":7,"orderIndex":7,"description":"Physical a mind throw economic scientist. Question edge policy oil within.\nTable blood better skin catch. Total whose help. Data time life church can card.","estimatedTime":"5 weeks"}'

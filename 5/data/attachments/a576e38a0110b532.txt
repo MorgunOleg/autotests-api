@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIyVDE2OjA4OjA4LjM0NTAyNiIsInVzZXJfaWQiOiJmMzhhNTc2Zi1iYmM4LTQ2YzUtOGVhNy1mMzM4YmM4Mjc4ZDUifQ.ZK6qROmB598-DdxA6_PtT8xB5xUbvsNKeU-3NoOPJCk' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Senior attention nor now thousand arrive dog.","maxScore":80,"minScore":16,"description":"Budget response skill behind boy. Wind wrong interest.\nNeed news relationship money speech no born.\nCup room four civil. Employee animal tough put building apply.","estimatedTime":"1 weeks","previewFileId":"5e91f5ae-4b9b-4586-85bc-98f968e36f50","createdByUserId":"f38a576f-bbc8-46c5-8ea7-f338bc8278d5"}'

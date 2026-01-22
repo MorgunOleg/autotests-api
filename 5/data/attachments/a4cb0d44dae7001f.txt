@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIyVDE2OjA4OjExLjg4MjA4NSIsInVzZXJfaWQiOiI0NzFiNjY0Ni0wOWQ2LTQ4ZmUtOGMwOC0xY2QyNjJhNzQ4MDQifQ.9ZrxyEEKwI8p6PoWTml5YPv54-BycHII7E9NDd2vlGw' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sister coach according almost might against.","maxScore":64,"minScore":14,"description":"Ahead you simply drug before little until generation. Talk himself under report end.\nQuite writer clear significant why price leader. Main seem soon. Shake attorney history forget.","estimatedTime":"5 weeks","previewFileId":"5596eb2f-97a0-4f1d-a2c6-f2bdeb0b2334","createdByUserId":"471b6646-09d6-48fe-8c08-1cd262a74804"}'

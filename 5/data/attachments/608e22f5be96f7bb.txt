@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/ee8682fb-678f-49ef-ac65-829423cef721' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIyVDE2OjA4OjEwLjk3MDMyNyIsInVzZXJfaWQiOiI2ZWVmZmRhMi1hZGIyLTRkZWUtODY4Yy01NjZmODM3MmY2ZjIifQ.X28wGTxwYs_qAI1rc-t1BZHsOd77GRtMlq4HnzOVir4' \
+  -H 'content-length: 305' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Should try head wrong represent.","maxScore":73,"minScore":16,"orderIndex":43,"description":"Here happy rather until system receive. Service fine offer know drop return police.\nAll medical growth or. Agreement source plan natural let. Company business direction bag.","estimatedTime":"1 weeks"}'

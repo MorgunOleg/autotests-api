@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIyVDE2OjA4OjEzLjEyMzc0MCIsInVzZXJfaWQiOiJmODBiZTA0ZS0zZDhhLTQyN2UtYjBlYy1kNGVlYTMzMmI5NTEifQ.diSj-8u4ispFUIRcJ1EU80ntAVZIPrhAJcpnVNlfVUk' \
+  -H 'content-length: 424' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Charge president magazine rock.","maxScore":53,"minScore":3,"description":"Indicate financial region present.\nWhere budget week. Look choose model drop once yard. Eat general population wall but who lot.\nFear matter treat into account world. Current amount meeting prove.","estimatedTime":"10 weeks","previewFileId":"7640f4e2-731d-4a22-be3d-471a5279abf0","createdByUserId":"f80be04e-3d8a-427e-b0ec-d4eea332b951"}'
