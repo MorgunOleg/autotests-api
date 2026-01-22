@@ -77,14 +77,22 @@ jobs:
           ref: gh-pages  # Указываем ветку gh-pages для получения отчётов
           path: gh-pages  # Указываем путь для сохранения отчётов
 
-      # 2.2. Шаг для загрузки папки allure-results как артефакта
+      # 2.2. Шаг для сохранения истории отчётов Allure в папке allure-history (для шага 2.4)
+      - name: Restore Allure history
+        run: |
+          if [ -d gh-pages/history ]; then
+            mkdir -p allure-history
+            cp -r gh-pages/history allure-history/
+          fi
+
+      # 2.3. Шаг для загрузки папки allure-results как артефакта
       - name: Download allure-results artefact
         uses: actions/download-artifact@v7
         with:
           name: allure-results
           path: allure-results
 
-      # 2.3. Шаг для генерации и  отображения отчёта Allure
+      # 2.4. Шаг для генерации и отображения отчёта Allure
       - name: Generates Allure Report with history
         uses: simple-elf/allure-report-action@v1.13  # Используем готовое решение из GitHub Marketplace для генерации Allure отчёта
         if: always()  # Этот шаг тоже всегда выполняется
@@ -92,7 +100,7 @@ jobs:
           allure_results: allure-results  # Указываем каталог с результатами тестов
           allure_history: allure-history  # Указываем каталог для истории отчётов Allure
 
-      # 2.4. Шаг для деплоя отчёта Allure на GitHub Pages, чтобы его можно было просматривать в браузере
+      # 2.5. Шаг для деплоя отчёта Allure на GitHub Pages, чтобы его можно было просматривать в браузере
       - name: Deploy report to Github Pages
         if: always()  # Выполняется всегда, независимо от успеха других шагов
         uses: peaceiris/actions-gh-pages@v4  # Используем GitHub Action для публикации отчёта на GitHub Pages
