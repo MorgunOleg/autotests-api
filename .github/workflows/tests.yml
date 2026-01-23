@@ -68,6 +68,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 2
       - name: Check out repository
         uses: actions/checkout@v6
         with:
