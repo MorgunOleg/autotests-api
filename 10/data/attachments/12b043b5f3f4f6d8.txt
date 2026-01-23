@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIzVDAxOjM5OjE5LjUwMzAwMiIsInVzZXJfaWQiOiIyYWM4NDI4Yy05MzNjLTQ5ZjktOGI1OC1jNzcyMGE2NTRiYjcifQ.5_Kl312F2x9tQeVd19xXEdms5-fOVf559Ha74P5Y9CI' \
+  -H 'content-length: 312' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Least cell attack travel side allow attorney.","courseId":"8ad34d89-782d-4afa-ae76-bbf6a2ce1d34","maxScore":88,"minScore":4,"orderIndex":62,"description":"Congress down conference might decade firm. Religious lose possible and magazine. These such mother already how degree.","estimatedTime":"8 weeks"}'

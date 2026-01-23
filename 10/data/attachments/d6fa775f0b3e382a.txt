@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIzVDAxOjM5OjE3LjA1MjUxMyIsInVzZXJfaWQiOiJiYmFjMjFiMi03NzU3LTQ4YTMtOTc1Yy0zZDBhYWJhNTgwMDUifQ.4DNUsXeeriPN4oAVQL4XDIHZuND7hV_giR134eXw9d8' \
+  -H 'content-length: 322' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Myself ok close officer exactly until.","maxScore":77,"minScore":7,"description":"Design summer arm investment machine. Approach one structure property join follow success.","estimatedTime":"3 weeks","previewFileId":"d3670c61-090e-4dc6-923f-b4211ce69d51","createdByUserId":"bbac21b2-7757-48a3-975c-3d0aaba58005"}'

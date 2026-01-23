@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIzVDAxOjM5OjE1LjgxOTg4OCIsInVzZXJfaWQiOiI5NTc4YzRjYy1lOWZmLTQ2YTctYWYwNi1jOGZjYjBlOTAwMWUifQ.TZW_8DGiIC9JbrYjPGRoksA97O3BrmdDzXLITQZyAL0' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Loss minute staff.","maxScore":66,"minScore":20,"description":"Senior likely take. Find morning to head compare. Trial usually under perform culture group.\nWish could yet could understand. Talk thank skill official. Mean chair all personal imagine.","estimatedTime":"5 weeks","previewFileId":"589b4214-34e7-478f-8acd-891055fe864e","createdByUserId":"9578c4cc-e9ff-46a7-af06-c8fcb0e9001e"}'

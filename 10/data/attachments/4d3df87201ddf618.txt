@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIzVDAxOjM5OjE2LjQwOTc0NiIsInVzZXJfaWQiOiIzYjljZWY4Ni0wMzhjLTRlZmQtODYyOS00YzM3ZDk3ZDQ0MWMifQ.Sl0gXiftJUNyCxA5GsP14dmRX2OW-8Lt-MgikaOdSSM' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Concern south it remember.","maxScore":59,"minScore":10,"description":"Fill help health guy candidate share arrive. Issue structure keep. Part certain card.\nMore church resource strong PM. Degree car maintain its issue.\nWide half tax toward. Civil walk rate security.","estimatedTime":"8 weeks","previewFileId":"f91f8dd7-5a2c-493e-b587-41e3f9eef11f","createdByUserId":"3b9cef86-038c-4efd-8629-4c37d97d441c"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIzVDAxOjM5OjIwLjE1MzY4NCIsInVzZXJfaWQiOiIyNjE4YzJlMC1iZDA2LTRjNTMtOTc3ZC0yMDlmNTlmYmZiMTMifQ.8-UbnH_yHue5SzPZ38IzeGuL3YOnmL6Ng7h51ojwKSQ' \
+  -H 'content-length: 378' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Black tend ready right soldier then.","courseId":"6a5719c0-8fdf-4e17-8029-c13cbe9429ad","maxScore":96,"minScore":29,"orderIndex":44,"description":"Ball its Democrat reflect its bank blood.\nBehind paper research seat. Others would while information. Let soldier other plant.\nArtist wall sense war particularly. Next around strategy option.","estimatedTime":"9 weeks"}'

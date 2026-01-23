@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:31 Make PATCH request to http://localhost:8000/api/v1/exercises/f92691c2-3e7c-4fff-b962-2b9b26b66bd3
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises/f92691c2-3e7c-4fff-b962-2b9b26b66bd3
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:113 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Senior help PM measure tell population.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 76
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 18
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 65
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to He best mission involve effort entire never. Hold section teacher rest. Black with agency little space leader born. Chance network family thank size.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 1 weeks

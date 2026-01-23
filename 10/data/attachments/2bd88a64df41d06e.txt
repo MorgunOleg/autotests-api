@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIzVDAxOjM5OjE4Ljg1NjgwNiIsInVzZXJfaWQiOiJkMzRkNTg1Zi0zMTRiLTQ1ODctOTJmOC03NjlmNmRiOWEyOWQifQ.w10bEdJf9e0wWZWmVI_0CiWwTw55H0xgcn9Bh3GeIx4' \
+  -H 'content-length: 258' \
+  -H 'content-type: application/json' \
+  -d '{"title":"He both both five.","courseId":"bfea73d2-4be1-42f3-b3b6-0ba2e2f31592","maxScore":83,"minScore":29,"orderIndex":87,"description":"Particular difficult wind smile choose. Less week relationship range long capital recently.","estimatedTime":"4 weeks"}'

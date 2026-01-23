@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIzVDAxOjM5OjE5LjUwMzAwMiIsInVzZXJfaWQiOiIyYWM4NDI4Yy05MzNjLTQ5ZjktOGI1OC1jNzcyMGE2NTRiYjcifQ.5_Kl312F2x9tQeVd19xXEdms5-fOVf559Ha74P5Y9CI' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"State vote wonder story attention play per.","maxScore":77,"minScore":16,"description":"Top cold see professional. Her leg sport then idea whole.\nService gun whatever suffer. Hit pull campaign put laugh serve action.","estimatedTime":"6 weeks","previewFileId":"9899f343-a1fb-4723-bc76-241f78028364","createdByUserId":"2ac8428c-933c-49f9-8b58-c7720a654bb7"}'

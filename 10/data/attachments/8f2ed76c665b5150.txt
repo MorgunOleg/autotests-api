@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIzVDAxOjM5OjE3LjYzNzk5OCIsInVzZXJfaWQiOiI5YTU3NTY2MC04NWUzLTRlZDAtOWZhNi03MzU2YWZlN2EwNTcifQ.sioGLEa8zQW0J7dDlGtvsM8mHubMgeTL4bu8_sDKUTY' \
+  -H 'content-length: 333' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bank federal candidate possible attention thought city.","maxScore":73,"minScore":22,"description":"Simply cut you couple analysis indeed. Sport woman important surface international.","estimatedTime":"3 weeks","previewFileId":"c1858e2f-6cb5-486d-bae4-4b0162615979","createdByUserId":"9a575660-85e3-4ed0-9fa6-7356afe7a057"}'

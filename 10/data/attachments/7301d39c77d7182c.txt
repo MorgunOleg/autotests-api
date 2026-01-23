@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIzVDAxOjM5OjE4Ljg1NjgwNiIsInVzZXJfaWQiOiJkMzRkNTg1Zi0zMTRiLTQ1ODctOTJmOC03NjlmNmRiOWEyOWQifQ.w10bEdJf9e0wWZWmVI_0CiWwTw55H0xgcn9Bh3GeIx4' \
+  -H 'content-length: 441' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wind station inside mention exactly traditional.","maxScore":55,"minScore":28,"description":"Look final majority natural nothing phone figure.\nTeach subject lot positive approach past. Same education develop matter Republican myself newspaper various. Job kind follow listen late leg table.","estimatedTime":"5 weeks","previewFileId":"95457f02-cf67-44d8-8e4e-c3c86a9c1ce7","createdByUserId":"d34d585f-314b-4587-92f8-769f6db9a29d"}'
