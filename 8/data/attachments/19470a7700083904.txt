@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIzVDAxOjMyOjEzLjQyNzUwMyIsInVzZXJfaWQiOiIxN2JjMzg3NC1mNjNiLTRhOWYtOTkxZC0xYmY5ZjQyNDFiNWYifQ._M5zJKsDznYAbkjLaUoQkDc9nq79oa2R7iHqhnQaoHI' \
+  -H 'content-length: 397' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Administration low yes chair.","maxScore":99,"minScore":12,"description":"Agency around gun ago voice who. Everything common old according sell should I. Build interview generation science decision rate. Sound quality word and fire race you mouth.","estimatedTime":"5 weeks","previewFileId":"6165edb4-e6f0-46b7-90aa-c5a8b3dce7db","createdByUserId":"17bc3874-f63b-4a9f-991d-1bf9f4241b5f"}'

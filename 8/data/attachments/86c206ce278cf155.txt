@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIzVDAxOjMyOjEwLjczMTA2NSIsInVzZXJfaWQiOiJjOGFkYjczMS1mOTRiLTRkMzktOThhNy0xMmE3YWI3M2NiMTEifQ.2jiImwfnEeLdKFoHRTOppQGeGfTTPkU4rYsXbtfqCww' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Attack raise rock society wrong present.","maxScore":81,"minScore":7,"description":"Career after ground he continue sea follow. Design yourself maintain reduce rock would local.\nSide explain land challenge marriage standard job. Shake world matter.","estimatedTime":"1 weeks","previewFileId":"7586e92c-21b5-43de-a94f-0b12929585e7","createdByUserId":"c8adb731-f94b-4d39-98a7-12a7ab73cb11"}'

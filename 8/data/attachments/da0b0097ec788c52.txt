@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/exercises/3a07af9d-d1d8-47c2-b339-8f03147fd6b9
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises/3a07af9d-d1d8-47c2-b339-8f03147fd6b9
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:53 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:29 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to 3a07af9d-d1d8-47c2-b339-8f03147fd6b9
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Out result speech place really break Mr.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to 521c8946-61bc-44b5-a814-151159a8d894
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 64
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 5
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 80
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Now democratic you child forward. Race test far find edge performance option. Pattern ten high health sister air someone. Information wait quite consider.
+Lose before short place opportunity ago.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 7 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:35 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/ba1fc51b-8366-4394-9727-8362f6106512' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIzVDAxOjMyOjEwLjE0NTE3MyIsInVzZXJfaWQiOiI2ZDdkODI4ZS03MGUyLTRjYTgtYjIzYy1iMDc1N2IzZGEwYWQifQ.UnZAaBUeR6I2PKejfYi4U1eSriS_lxdImxmtPYgXxOY' \
+  -H 'content-length: 261' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Deep fill safe question fire tree.","maxScore":90,"minScore":28,"description":"Until across bar recently. Middle sell occur choice check raise poor join.\nPolicy report great. Draw course such baby. Later occur pick weight.","estimatedTime":"8 weeks"}'

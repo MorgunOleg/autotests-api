@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIzVDAxOjMyOjEyLjgzOTIzNCIsInVzZXJfaWQiOiIzZDgyNjliOS01MDk1LTQ1MWYtYWU2OC00MzFjYmU3MGVmZjcifQ.fJoXCxttisGzJAn0aMvjivF4cfq2Bb2lyp1d8NPxpwM' \
+  -H 'content-length: 391' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Well guy beyond bar boy.","maxScore":56,"minScore":5,"description":"General door expert everyone heavy hard even. Anyone care prove together more. Wonder network enough amount.\nCrime ok write would house today. Audience according court pay.","estimatedTime":"7 weeks","previewFileId":"5210cc15-c194-4bb8-9506-5eb251e3d566","createdByUserId":"3d8269b9-5095-451f-ae68-431cbe70eff7"}'

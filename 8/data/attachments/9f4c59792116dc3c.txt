@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIzVDAxOjMyOjExLjM4Mzg0OCIsInVzZXJfaWQiOiIzNDMxYWFkYy1hMWM1LTQ2YzgtYmQ0NS05OTJkMjgyYmZhNTAifQ.iP4becIKlooilU8sVCmJjrYm9JLsAc7LZH2SD5l0lbk' \
+  -H 'content-length: 332' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Interesting adult simply compare reach.","maxScore":82,"minScore":3,"description":"Measure early minute upon seven area radio. Bring executive explain morning. Also still rate learn.","estimatedTime":"3 weeks","previewFileId":"b2231f23-7850-44ee-9397-8027eb4de3d1","createdByUserId":"3431aadc-a1c5-46c8-bd45-992d282bfa50"}'

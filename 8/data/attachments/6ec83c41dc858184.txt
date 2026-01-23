@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIzVDAxOjMyOjEwLjE0NTE3MyIsInVzZXJfaWQiOiI2ZDdkODI4ZS03MGUyLTRjYTgtYjIzYy1iMDc1N2IzZGEwYWQifQ.UnZAaBUeR6I2PKejfYi4U1eSriS_lxdImxmtPYgXxOY' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Party less like seat candidate office.","maxScore":73,"minScore":29,"description":"Claim word shake. Glass knowledge once majority clearly. Once today line law. Sign hundred finally necessary your whom exactly.\nBody huge today even hot case. Type ahead century boy answer.","estimatedTime":"7 weeks","previewFileId":"d35e231c-b562-4d77-abe7-8322cebaae8e","createdByUserId":"6d7d828e-70e2-4ca8-b23c-b0757b3da0ad"}'

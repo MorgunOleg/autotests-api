@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIzVDAxOjMyOjA5LjQ5OTE2MSIsInVzZXJfaWQiOiIwYzhmNmQxYy0zNTM4LTQxNjYtOTEyZi1hNDBlZDQ0MDA0ZTcifQ.WyI6G3SxPJOa8fOj1YtfQJ8-5XcEXFFgS5jLWyVmYNc' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Determine billion month.","maxScore":62,"minScore":24,"description":"Site reduce truth five who third. Management test within on mean door.\nMeasure camera good affect office. Peace wife unit entire church rest.","estimatedTime":"9 weeks","previewFileId":"8ca5704f-5f53-4da4-9ccd-c983e3129a46","createdByUserId":"0c8f6d1c-3538-4166-912f-a40ed44004e7"}'
