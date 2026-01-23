@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIzVDAxOjM1OjM0LjcwMjgwOCIsInVzZXJfaWQiOiIwOTJiOWJjZS01MWQ5LTQ2ZWEtOGM3ZC04MzAyNzEyM2RlZjAifQ.-n8uE3HQwynm--GCZiwpn7CjiFxCdoAF1yXmdKxrJB8' \
+  -H 'content-length: 325' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Machine reach build.","maxScore":66,"minScore":14,"description":"Season common hard decide. System light people as possible trade indeed.\nAdmit business set recognize happen.","estimatedTime":"6 weeks","previewFileId":"4fcb0c11-c02d-4916-ab3d-0564c71466d1","createdByUserId":"092b9bce-51d9-46ea-8c7d-83027123def0"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIzVDAxOjM1OjMzLjUzNjgyMCIsInVzZXJfaWQiOiJkZWFmYjI4Ny1hZjNmLTQ1YzQtYjE5Zi0yOTVjZTAxNWU4MzEifQ.fn-YCdNZggi_DLr9gGsNWAt8lYXG6cC8ZtCGC8x_7sw' \
+  -H 'content-length: 365' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Artist eye practice set minute authority trial.","courseId":"36889883-a3cb-4ef4-a65e-7cc348a3278b","maxScore":83,"minScore":9,"orderIndex":52,"description":"Both despite yet century lay mouth. Style rest site five summer manager everyone they.\nMillion work great stop I. Main move third here action. Country tough raise color.","estimatedTime":"3 weeks"}'

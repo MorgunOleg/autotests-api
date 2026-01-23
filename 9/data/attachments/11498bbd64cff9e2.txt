@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIzVDAxOjM1OjMzLjUzNjgyMCIsInVzZXJfaWQiOiJkZWFmYjI4Ny1hZjNmLTQ1YzQtYjE5Zi0yOTVjZTAxNWU4MzEifQ.fn-YCdNZggi_DLr9gGsNWAt8lYXG6cC8ZtCGC8x_7sw' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Certain might bed training effect Mrs.","maxScore":65,"minScore":20,"description":"Themselves campaign country clear music way tough. Two next country. Two group care.\nFirm partner tough according certain. Difference style Mrs western mouth.","estimatedTime":"5 weeks","previewFileId":"a3fde2d2-9c95-4f71-a91e-fe6b0732e3b8","createdByUserId":"deafb287-af3f-45c4-b19f-295ce015e831"}'

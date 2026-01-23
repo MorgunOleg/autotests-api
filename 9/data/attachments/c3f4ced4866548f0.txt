@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIzVDAxOjM1OjM1Ljk0MjM4OCIsInVzZXJfaWQiOiJjYzg5NmIzNC0xYjUyLTQyMzUtODkxMy0wMTY4ZTA2Zjk3N2EifQ.EMQQ3SZWCyHmifV_VcU2OniYMkkbXe3Vc7Ov5-dQbHs' \
+  -H 'content-length: 299' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Usually crime thus.","courseId":"29aded08-c027-438a-a072-3cff7b1587ff","maxScore":61,"minScore":18,"orderIndex":5,"description":"Third three represent window space.\nReason painting recently approach economy nature hit leg. Rest actually heavy among old either.","estimatedTime":"6 weeks"}'

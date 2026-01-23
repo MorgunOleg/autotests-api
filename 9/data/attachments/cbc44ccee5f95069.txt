@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIzVDAxOjM1OjM1LjMyNTI3MiIsInVzZXJfaWQiOiI1YTdmOTc4MC03Y2FiLTRmOTAtOGQxYy01NTYyM2RlNzIxYWIifQ.Ff02j9m_JdyGXS8FdSaPBmiVsXRLcqC2-UE_UOwJPu8' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Television window describe money where treatment support.","courseId":"ce1f9c0f-c821-4917-a4e6-b68f898f226e","maxScore":62,"minScore":7,"orderIndex":85,"description":"Media feeling story debate never. Else agent cold message.\nClearly behavior recognize man necessary chair specific economy. Moment take fill somebody firm.","estimatedTime":"4 weeks"}'

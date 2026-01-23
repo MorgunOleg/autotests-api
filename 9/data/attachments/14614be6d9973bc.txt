@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/e4effa2e-4539-4668-a283-f0d91e5aafcf' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIzVDAxOjM1OjMyLjk3OTMyMSIsInVzZXJfaWQiOiJmYjk5NjkxYS0wYzkzLTQ2NTAtOGRmYy0xODE0MGM3NjYwMmIifQ.moGqGp8r8yNLeDzTf2SYLiSzAWtbBorex7-7DZzpdnc' \
+  -H 'content-length: 296' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Certain should defense entire right need.","maxScore":69,"minScore":15,"description":"Interesting social under hand affect. Dark remain respond. Difference as establish her.\nRole try could. View including measure own much.\nOutside reduce parent again walk.","estimatedTime":"6 weeks"}'

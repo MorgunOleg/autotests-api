@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIzVDAxOjM1OjMxLjU1OTg3NSIsInVzZXJfaWQiOiI0NGU3MzdjMy01NDQzLTRhYTctYmI2MS0wNTQ0NjE1ZTBmYTMifQ.ZD9-cp8xKX4warApILvmR-Zc23EP_sfPxWKPMLeCZ1A' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Meeting resource human her six.","maxScore":92,"minScore":5,"description":"Factor career government student sound series. Nature huge individual professional.\nThird glass this above. Wonder cold high player everyone.","estimatedTime":"9 weeks","previewFileId":"b8655525-6075-4247-9493-d3d92bd7f7a9","createdByUserId":"44e737c3-5443-4aa7-bb61-0544615e0fa3"}'

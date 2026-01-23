@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIzVDAxOjM1OjM0LjcwMjgwOCIsInVzZXJfaWQiOiIwOTJiOWJjZS01MWQ5LTQ2ZWEtOGM3ZC04MzAyNzEyM2RlZjAifQ.-n8uE3HQwynm--GCZiwpn7CjiFxCdoAF1yXmdKxrJB8' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Above book size yeah off address.","courseId":"ffa25985-0298-4bc0-8c95-9e249805c219","maxScore":63,"minScore":17,"orderIndex":43,"description":"Move far TV land. School participant garden number include.\nWhose democratic in wall. Price majority standard human.\nSomebody join power agent. Event body create would picture of.","estimatedTime":"6 weeks"}'

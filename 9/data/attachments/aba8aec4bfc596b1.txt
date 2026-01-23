@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIzVDAxOjM1OjMyLjk3OTMyMSIsInVzZXJfaWQiOiJmYjk5NjkxYS0wYzkzLTQ2NTAtOGRmYy0xODE0MGM3NjYwMmIifQ.moGqGp8r8yNLeDzTf2SYLiSzAWtbBorex7-7DZzpdnc' \
+  -H 'content-length: 429' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Assume throughout by describe watch way design.","maxScore":53,"minScore":24,"description":"Age reduce ask perhaps fly event. Back partner season almost now. Although last before around available husband leader.\nDegree during agency marriage girl. Find body likely one actually.","estimatedTime":"5 weeks","previewFileId":"1d65ff6a-6965-4c34-9320-b94da1190c92","createdByUserId":"fb99691a-0c93-4650-8dfc-18140c76602b"}'

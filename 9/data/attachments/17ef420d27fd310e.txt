@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/f65e09e9-307f-4b70-81ca-08dc460f7222' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTIzVDAxOjM1OjM0LjE0OTUwNSIsInVzZXJfaWQiOiI5ZTFhYjdkYS1jMmZlLTQ4Y2UtYmRlNS1iYTQ2OTJiZDI3ZmUifQ.gTreJhN3-LBZPhCjf-IpCayBzAXh1bcYWGmvUdeTzZ0' \
+  -H 'content-length: 265' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Movie brother budget PM imagine.","maxScore":84,"minScore":13,"orderIndex":92,"description":"Tree better could type. Able house beautiful yet fall line.\nEat fund bed economic network. Support stay interesting quite still high.","estimatedTime":"9 weeks"}'
