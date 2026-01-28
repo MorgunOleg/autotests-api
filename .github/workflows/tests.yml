@@ -58,40 +58,55 @@ jobs:
 
       # 1.8. Шаг для сохранения папки с результатами тестов как артефакта
       - name: Upload allure-results artefact
+        if: always()
         uses: actions/upload-artifact@v6
         with:
           name: allure-results
           path: allure-results
 
   publish-report:
+    if: always()
     needs: run-tests
     runs-on: ubuntu-latest
 
     steps:
-      # 2.1
-      - name: Check out repository
-        uses: actions/checkout@v6
+      # 2.1. Шаг для получения истории отчётов Allure, если она существует
+      - name: Get Allure history
+        uses: actions/checkout@v6  # Опять клонируем репозиторий, чтобы получить историю отчётов
+        if: always()  # Всегда выполняем, независимо от успеха или неудачи предыдущих шагов
+        continue-on-error: true  # Если здесь возникнет ошибка, workflow всё равно продолжит выполнение
         with:
-          ref: gh-pages
-          path: gh-pages
+          ref: gh-pages  # Указываем ветку gh-pages для получения отчётов
+          path: gh-pages  # Указываем путь для сохранения отчётов
 
-      - name: Download Allure results
+      # 2.2. Шаг для сохранения истории отчётов Allure в папке allure-history (для шага 2.4)
+      - name: Restore Allure history
+        run: |
+          if [ -d gh-pages/history ]; then
+            mkdir -p allure-history
+            cp -r gh-pages/history allure-history/
+          fi
+
+      # 2.3. Шаг для загрузки папки allure-results как артефакта
+      - name: Download allure-results artefact
         uses: actions/download-artifact@v7
         with:
           name: allure-results
           path: allure-results
 
-      - name: Generate Allure Report with history
-        uses: simple-elf/allure-report-action@v1.13
-        if: always()
+      # 2.4. Шаг для генерации и отображения отчёта Allure
+      - name: Generates Allure Report with history
+        uses: simple-elf/allure-report-action@v1.13  # Используем готовое решение из GitHub Marketplace для генерации Allure отчёта
+        if: always()  # Этот шаг тоже всегда выполняется
         with:
-          allure_results: allure-results
-          allure_history: allure-history
+          allure_results: allure-results  # Указываем каталог с результатами тестов
+          allure_history: allure-history  # Указываем каталог для истории отчётов Allure
 
+      # 2.5. Шаг для деплоя отчёта Allure на GitHub Pages, чтобы его можно было просматривать в браузере
       - name: Deploy report to Github Pages
-        if: always()
-        uses: peaceiris/actions-gh-pages@v4
+        if: always()  # Выполняется всегда, независимо от успеха других шагов
+        uses: peaceiris/actions-gh-pages@v4  # Используем GitHub Action для публикации отчёта на GitHub Pages
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages
-          publish_dir: allure-history
+          github_token: ${{ secrets.GITHUB_TOKEN }}  # Токен для аутентификации на GitHub
+          publish_branch: gh-pages  # Указываем, что отчёт будет опубликован в ветке gh-pages
+          publish_dir: allure-history  # Указываем папку, которая будет опубликована на GitHub Pages
