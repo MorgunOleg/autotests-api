@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTI4VDE2OjM2OjM4LjAwNzQ1MiIsInVzZXJfaWQiOiJiMDllMTNhNy0zOWYwLTQyY2MtOWNhOS01YmVlYmJkNjgzMWMifQ.ZPfCOWf7BXasC9_38WqJtX-5sPFOWaQMQUNQD8OgtKk' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Begin individual man fill answer member water.","maxScore":85,"minScore":10,"description":"Believe paper may economic card. Program high community top difference reveal.\nPhone upon own concern economy goal official. Those kid suggest identify.","estimatedTime":"4 weeks","previewFileId":"74b7edbe-9d54-4b37-8a3c-b6c14500c812","createdByUserId":"b09e13a7-39f0-42cc-9ca9-5beebbd6831c"}'

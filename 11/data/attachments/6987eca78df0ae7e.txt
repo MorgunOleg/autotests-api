@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTI4VDE2OjM2OjM2Ljg1ODE1MSIsInVzZXJfaWQiOiIxM2Q3NTVlOS1hODQ0LTRjMmYtOGY1NS03N2QzNTQzYjRkOGUifQ.A8v1yIxXYfUIlbnYEHSB17Jzbv9EaDdasCnKRyE14a0' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Perhaps product leg yes art maintain traditional important.","maxScore":91,"minScore":20,"description":"Receive political guess. Left court rather. Serious work relationship sea recent company cold.\nDirection staff provide sport. Police forget individual college.","estimatedTime":"6 weeks","previewFileId":"336b4ccb-e5a0-43cf-82c1-6a6c43c1353d","createdByUserId":"13d755e9-a844-4c2f-8f55-77d3543b4d8e"}'

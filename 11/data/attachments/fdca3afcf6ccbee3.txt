@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTI4VDE2OjM2OjM5LjQ3NjY0MSIsInVzZXJfaWQiOiI0NTQ4ZTVkMi1mYTI5LTRiNjgtOGI3MS04ZDNjNjQwMmJjNTQifQ.lFz_llzghO3VdvxVCdqqnbVdZBuM7YIECsHs9rBezH8' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wide small pretty opportunity his accept case industry.","courseId":"29d29f7d-2b55-4543-ac0d-d7b3c3d4508d","maxScore":85,"minScore":15,"orderIndex":33,"description":"Leave crime recently others evening never.\nAhead yeah quite man while Republican. International rule check hundred.\nYes matter smile piece past. Degree true sort history.","estimatedTime":"1 weeks"}'

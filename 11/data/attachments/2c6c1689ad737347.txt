@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTI4VDE2OjM2OjQwLjY2Njg4NyIsInVzZXJfaWQiOiJlZTYyZTRlNS1iZTljLTQ1ZjQtYmM3Mi1iYWU2M2U3ZDc5MGIifQ.CjMbM9rtO7F-dpf2_qH1R7lUEXYzbIBwUC6_cLTWhBQ' \
+  -H 'content-length: 438' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Change it rise recently number others personal.","maxScore":63,"minScore":8,"description":"Large price man focus lay me others. Day anything attack record. Future sense unit customer.\nPay almost stock office agency church since. Yes ball out along. Accept life hold build century wonder.","estimatedTime":"7 weeks","previewFileId":"75f436e4-677f-470e-939a-57624bf7d63a","createdByUserId":"ee62e4e5-be9c-45f4-bc72-bae63e7d790b"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTI4VDE2OjM2OjQwLjY2Njg4NyIsInVzZXJfaWQiOiJlZTYyZTRlNS1iZTljLTQ1ZjQtYmM3Mi1iYWU2M2U3ZDc5MGIifQ.CjMbM9rtO7F-dpf2_qH1R7lUEXYzbIBwUC6_cLTWhBQ' \
+  -H 'content-length: 316' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Million budget in apply affect.","courseId":"8c2552b4-131b-4e84-9e42-bec21590d3df","maxScore":54,"minScore":4,"orderIndex":33,"description":"Fall throw fact talk. Inside smile himself religious tonight year. Explain executive structure just song.\nLaw college war pressure seat.","estimatedTime":"9 weeks"}'

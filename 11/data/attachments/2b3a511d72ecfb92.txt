@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTI4VDE2OjM2OjM5LjQ3NjY0MSIsInVzZXJfaWQiOiI0NTQ4ZTVkMi1mYTI5LTRiNjgtOGI3MS04ZDNjNjQwMmJjNTQifQ.lFz_llzghO3VdvxVCdqqnbVdZBuM7YIECsHs9rBezH8' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Brother little national wonder.","maxScore":65,"minScore":1,"description":"Notice to of. Notice edge rest from social available. Ready PM field deal around former.\nLocal past work simply agreement film. Offer style far ability might. Dark perhaps enough also large.","estimatedTime":"2 weeks","previewFileId":"7cc19eb7-d9a1-4854-81bd-d0f241e260f4","createdByUserId":"4548e5d2-fa29-4b68-8b71-8d3c6402bc54"}'

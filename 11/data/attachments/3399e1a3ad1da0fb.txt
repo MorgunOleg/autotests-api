@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTI4VDE2OjM2OjM2Ljg1ODE1MSIsInVzZXJfaWQiOiIxM2Q3NTVlOS1hODQ0LTRjMmYtOGY1NS03N2QzNTQzYjRkOGUifQ.A8v1yIxXYfUIlbnYEHSB17Jzbv9EaDdasCnKRyE14a0' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Yourself rich program above.","maxScore":76,"minScore":30,"description":"Position democratic class just draw where. High lay create tell green. Environment executive conference local.\nHot away value enough citizen. Risk piece image play here.","estimatedTime":"9 weeks","previewFileId":"336b4ccb-e5a0-43cf-82c1-6a6c43c1353d","createdByUserId":"13d755e9-a844-4c2f-8f55-77d3543b4d8e"}'

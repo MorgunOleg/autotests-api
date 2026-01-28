@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTI4VDE2OjM2OjQwLjM5MzI4NCIsInVzZXJfaWQiOiI5OTk0MGQ3ZS05Yjk3LTQ1OTctODQ5NC1iYWZkNjQxNGE1YjUifQ.Pd65XeJqPx3FQ0Jg5U7bClI8xqwfut8atVrwS2djOJc' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Just whose behavior night outside whether rich.","maxScore":89,"minScore":30,"description":"Director such program necessary better. Interview response vote key strong owner dream. Carry war thousand take toward bad life.","estimatedTime":"1 weeks","previewFileId":"6c11c6f5-baf9-4a20-bda8-2563f97029c5","createdByUserId":"99940d7e-9b97-4597-8494-bafd6414a5b5"}'

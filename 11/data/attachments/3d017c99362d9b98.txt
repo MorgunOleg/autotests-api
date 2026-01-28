@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTI4VDE2OjM2OjM4LjI4MjQzMSIsInVzZXJfaWQiOiI1OWIxMmRjZS1hNGYxLTQxMDQtODEyZC00YzNhYTA5OWM1NGYifQ.-hdEDoJKCclel36pnh_DL9GqtMBV96PLNtJ2vEmJTlo' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Officer education painting take white.","maxScore":94,"minScore":7,"description":"Full toward recognize rest at person. Pull stand thus east million tonight. Right crime probably all bank. Walk magazine institution office center factor.","estimatedTime":"3 weeks","previewFileId":"8d0551bc-b37a-4a6d-96a5-48be663ea5e2","createdByUserId":"59b12dce-a4f1-4104-812d-4c3aa099c54f"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTI4VDE2OjM2OjM5LjIwMTc0MCIsInVzZXJfaWQiOiI0OTIxYmI5Ny1jZjY5LTQwZDctOTI1MC0wM2I0OTkwMjcwYTQifQ.6xwWioQsINFTjq8tP64LLCAHZ9LWl95MaKWtd-wBmAE' \
+  -H 'content-length: 438' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Social still use budget hour put whatever.","maxScore":94,"minScore":26,"description":"Avoid reason political. Ever long must focus political.\nExperience way fact five four glass. Discover accept fast least production realize.\nFeeling drive personal control. Safe food behavior why use.","estimatedTime":"6 weeks","previewFileId":"a3328bc9-fd52-4e71-8600-e60093ec2943","createdByUserId":"4921bb97-cf69-40d7-9250-03b4990270a4"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTI4VDE2OjM2OjM5LjIwMTc0MCIsInVzZXJfaWQiOiI0OTIxYmI5Ny1jZjY5LTQwZDctOTI1MC0wM2I0OTkwMjcwYTQifQ.6xwWioQsINFTjq8tP64LLCAHZ9LWl95MaKWtd-wBmAE' \
+  -H 'content-length: 271' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Court among realize she need be.","courseId":"7aef0b62-5586-4517-b6d9-bc1114499426","maxScore":86,"minScore":18,"orderIndex":8,"description":"Set more require star wear forward wife. Poor keep sing account tough region character key.","estimatedTime":"9 weeks"}'
