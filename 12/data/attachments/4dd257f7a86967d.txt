@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTI5VDE2OjEyOjU2LjI4NTc0NyIsInVzZXJfaWQiOiJlNjcwOTlhMy1mNmY3LTRmYTktYmQ4Ny1lMTRhYmMzMDJjZmIifQ.Wx5Sq7KE3SQQM1k2655IuQ8wUG8UT92nwXnyE6iMkHE' \
+  -H 'content-length: 291' \
+  -H 'content-type: application/json' \
+  -d '{"title":"List both sure economy rate include.","courseId":"84dc7a06-8585-4f57-b333-c9ccc8da54c4","maxScore":66,"minScore":19,"orderIndex":32,"description":"Buy teach article field hair room. Significant participant feel go guess soldier as. Much travel section.","estimatedTime":"10 weeks"}'

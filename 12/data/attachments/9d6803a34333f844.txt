@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTI5VDE2OjEyOjU1LjY2NjI1OSIsInVzZXJfaWQiOiIwOWFjNzg2Yy1iZjNhLTQ0ZDgtYTg4ZS04YTMwZWQzYWUyMTgifQ.U7a6UVgdIQlUVpHRuO0RcySZR3BVj3z30US9KYwW-is' \
+  -H 'content-length: 357' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cost hot above laugh.","maxScore":87,"minScore":13,"description":"Place measure party suddenly person job. Build change expect present crime bed. Own require scientist item southern. For professor treatment.","estimatedTime":"4 weeks","previewFileId":"9055b3dd-6aeb-48cb-87f4-2e54235e7062","createdByUserId":"09ac786c-bf3a-44d8-a88e-8a30ed3ae218"}'

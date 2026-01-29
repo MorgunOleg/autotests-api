@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTI5VDE2OjEyOjU2Ljg0NDcxMCIsInVzZXJfaWQiOiJiNGI1NGM0ZC0wNWNjLTQyMzQtOTkwYS0zMDE2OGZiN2UzNWMifQ.mGl6fPicyZHejO3CWs1sJmCKhBld8XmDlfybp8cQs2g' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"A just arm buy picture fight.","maxScore":57,"minScore":5,"description":"Movement section hundred road. Real hair piece future. So gun use our next concern.\nSouth property coach leader. Others clearly key sometimes. Present employee point memory support along then.","estimatedTime":"4 weeks","previewFileId":"126983d9-e6a7-42de-af1e-67dab1712140","createdByUserId":"b4b54c4d-05cc-4234-990a-30168fb7e35c"}'

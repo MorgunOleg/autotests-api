@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTI5VDE2OjEyOjU4LjAzMzI1NiIsInVzZXJfaWQiOiI1MTcxN2E0ZS1iZThhLTQ5NDgtOTY4ZS0zZTE0ZmRmZWNlNGEifQ.DpjiXrlHIhnmN3kbMQKu0xx7ye8VhUfHQFyr40tJ7TA' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Staff since budget imagine candidate gas.","maxScore":69,"minScore":3,"description":"Expect occur use inside rule prove. Every still part available generation head term difference.\nPretty kitchen catch official red point task. Including office new charge.","estimatedTime":"2 weeks","previewFileId":"c802ea28-0773-4105-8bf1-2e3ea37ca88e","createdByUserId":"51717a4e-be8a-4948-968e-3e14fdfece4a"}'

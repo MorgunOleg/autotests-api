@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTI5VDE2OjEyOjU2LjI4NTc0NyIsInVzZXJfaWQiOiJlNjcwOTlhMy1mNmY3LTRmYTktYmQ4Ny1lMTRhYmMzMDJjZmIifQ.Wx5Sq7KE3SQQM1k2655IuQ8wUG8UT92nwXnyE6iMkHE' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"View during whom rock white something each.","maxScore":54,"minScore":28,"description":"Fight wide central sell. Or suddenly medical ok society. Reveal call off save hundred.\nRealize home lead report daughter represent compare.","estimatedTime":"10 weeks","previewFileId":"73d08893-379a-4c00-a9bf-0908c3b5e7a9","createdByUserId":"e67099a3-f6f7-4fa9-bd87-e14abc302cfb"}'

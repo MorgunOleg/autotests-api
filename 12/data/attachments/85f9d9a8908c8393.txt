@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTI5VDE2OjEyOjUzLjkzNzkwMCIsInVzZXJfaWQiOiJkZTVkZGQ1Yi1mODMxLTQ2M2MtYmEyMS00OGY4NmYyZDhkYjYifQ.p-E9eEpDGUCLw1S2fpQiueh5iBXfxzHgSCcytU4mFWw' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bill reveal outside rock certainly free.","maxScore":70,"minScore":8,"description":"Really style sport economy production seat. Movie gas reflect race child.\nTotal forget high because than. He leave baby. Instead huge increase firm big both.","estimatedTime":"7 weeks","previewFileId":"1345cf45-8ef0-4afb-b53e-439e95f8afb2","createdByUserId":"de5ddd5b-f831-463c-ba21-48f86f2d8db6"}'

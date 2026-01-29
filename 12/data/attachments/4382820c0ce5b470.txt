@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/6b897d6a-7371-4512-8545-0c3913365907' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTI5VDE2OjEyOjU1LjExMDg4NSIsInVzZXJfaWQiOiIyOGNmMDlkZC1kYjNhLTQ4MmYtYWNjNy05MzE2ODViZDQ5Y2QifQ.rZg7WNDDinl3eQb2RNVwd6f2DW3jg4Mv6swvfkbeN00' \
+  -H 'content-length: 297' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Congress care economy.","maxScore":52,"minScore":29,"description":"Best she trouble leg member win cold. Democrat lay glass think senior those he. Report stay let.\nMajor goal because movement professional. How mention expert mean. Through whatever dark week.","estimatedTime":"3 weeks"}'

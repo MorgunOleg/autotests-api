@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTI5VDE2OjEyOjU1LjExMDg4NSIsInVzZXJfaWQiOiIyOGNmMDlkZC1kYjNhLTQ4MmYtYWNjNy05MzE2ODViZDQ5Y2QifQ.rZg7WNDDinl3eQb2RNVwd6f2DW3jg4Mv6swvfkbeN00' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Suddenly learn discuss table.","maxScore":75,"minScore":13,"description":"Bring moment drive head.\nAlong term draw weight. Responsibility within standard guess. Computer company want.\nHotel on goal particularly bag. Husband fire recently between claim.","estimatedTime":"6 weeks","previewFileId":"23cd8c01-dfd4-44a9-8cfb-465cdca70d95","createdByUserId":"28cf09dd-db3a-482f-acc7-931685bd49cd"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTI5VDE2OjEyOjU0LjUwMTAyNyIsInVzZXJfaWQiOiIwZDdkMDU1ZC1iY2ZiLTRhNDctYjBkOS04NDhlYzg3MjIyMTcifQ.qBoAztmWzg0x4iUV00GZBBblUEpoMsAdFBOD9z_4DNg' \
+  -H 'content-length: 304' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Product involve mouth top.","maxScore":91,"minScore":25,"description":"History loss standard ability race. Now thousand once tough company author against.","estimatedTime":"5 weeks","previewFileId":"cddeeec9-15a2-45a4-874d-068a82618a2b","createdByUserId":"0d7d055d-bcfb-4a47-b0d9-848ec8722217"}'
