@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE1OjA0OjIzLjMxNDE2OCIsInVzZXJfaWQiOiI1Yzg5YjEyMS04NWYxLTRkOTUtOWNlMi02N2U0ZjlhMjlmOGEifQ.EyRtmJjEo__53zIbXVsOjqVAl4B53w-AxrXyIReox-w' \
+  -H 'content-length: 326' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Edge think Democrat.","maxScore":57,"minScore":7,"description":"Action do condition analysis approach. Before direction night nature ten behavior. Dream later newspaper factor.","estimatedTime":"5 weeks","previewFileId":"bf94bc11-884d-4889-8310-7c94db2138de","createdByUserId":"5c89b121-85f1-4d95-9ce2-67e4f9a29f8a"}'

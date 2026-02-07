@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE1OjA0OjIyLjY4MTM0NSIsInVzZXJfaWQiOiJkMDJhYjViZi0wNGE0LTQ5NTEtYWQyOS01MjA3MjMyNjg5NDgifQ.2OPFN_lKK5s4BjihvCVbdqR3p358AzlvrNC1S3Jb93A' \
+  -H 'content-length: 326' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Trial subject fly loss across.","maxScore":57,"minScore":13,"description":"Key you time capital simply week. For radio hard majority member piece. Street tough character field.","estimatedTime":"8 weeks","previewFileId":"25bd5d83-d4e0-45b3-8c2b-708a1137a9d9","createdByUserId":"d02ab5bf-04a4-4951-ad29-520723268948"}'

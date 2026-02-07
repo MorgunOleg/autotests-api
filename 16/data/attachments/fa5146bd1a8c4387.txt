@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE1OjA0OjIwLjIzNDg5OSIsInVzZXJfaWQiOiI0MWU3YzFiMC03YTU2LTQ4N2QtODAzMi00NzdiZmU4NGRjODEifQ.X61yf2QpTLWSLUncAj5nUQI1hdyySzdBvyFARXwV4qo' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Discover position else leave sure try tax body.","maxScore":68,"minScore":16,"description":"Ground late particular address sit usually. Remember hotel fine prove herself address. Six protect job billion five toward involve.","estimatedTime":"4 weeks","previewFileId":"05be12da-887f-47c6-8b74-3e54aa66522c","createdByUserId":"41e7c1b0-7a56-487d-8032-477bfe84dc81"}'

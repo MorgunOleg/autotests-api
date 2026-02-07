@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE1OjA0OjIxLjQ1MDYwNiIsInVzZXJfaWQiOiI2YjBiZTUzZC0xMGZhLTQyOGYtOTNmZS00NGNjNGJiN2ViMTcifQ.j5s5xu2DFKLccSaHFmDjNRVLwZe3ML3_58_X5v8-kNA' \
+  -H 'content-length: 358' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Difficult owner bit national.","maxScore":73,"minScore":15,"description":"Spring just policy capital hit. We miss provide parent appear exactly.\nFire between interesting or decide ten. Hospital state charge.","estimatedTime":"8 weeks","previewFileId":"e1460a9e-5d25-44bd-aeb4-36e48015e1ff","createdByUserId":"6b0be53d-10fa-428f-93fe-44cc4bb7eb17"}'

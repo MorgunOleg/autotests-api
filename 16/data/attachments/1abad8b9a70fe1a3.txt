@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE1OjA0OjE5LjAwODA5OCIsInVzZXJfaWQiOiJkOTE0ZDZmOS1jNWMyLTQwZDktODVmOC1kMmVjZjUyNGZlMzEifQ.reI9R2mHfjmGaonynrxK07ZNo_yhG5lxDoLy-qk1ivw' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Court support check ten reality important surface.","maxScore":52,"minScore":19,"description":"International line art four pick. Recently like manager no current matter blood.\nColor miss remain alone. Network like decide own ready.","estimatedTime":"5 weeks","previewFileId":"01e79914-7592-4f9e-9cfd-b8c47ebe1bea","createdByUserId":"d914d6f9-c5c2-40d9-85f8-d2ecf524fe31"}'

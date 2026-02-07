@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE1OjA0OjIyLjAzMjQ4NSIsInVzZXJfaWQiOiIyNzc0Nzk2MS0xNWNmLTQ3Y2ItOWVkMy0xMzQxMjk0MTE2Y2YifQ.QVeaUOn-ohi4d1Ip1l5v5t0C9YoOlWfP0QJx-FZUCKQ' \
+  -H 'content-length: 385' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Picture former send better decade difference white.","maxScore":98,"minScore":16,"description":"Through break cost best.\nPicture ok plant garden figure bring daughter.\nContinue outside size color through majority. Avoid some million.","estimatedTime":"3 weeks","previewFileId":"93e8c99a-a885-4e69-bae0-64170b94a8bd","createdByUserId":"27747961-15cf-47cb-9ed3-1341294116cf"}'

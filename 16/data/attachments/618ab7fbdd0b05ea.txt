@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE1OjA0OjIwLjgyMjE5MCIsInVzZXJfaWQiOiIwNjBjYWZkZS05MzQ3LTQwZDctYWUwZS1kYzcxOGFiODUzNGEifQ.hTMX1nmeCYv2QYiRTkFjasrOFAG04Cpmw_ZT8C6wAuE' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Once every mind theory.","maxScore":80,"minScore":6,"description":"Certainly lose garden very hundred research forget. Return firm section finish present evening. Experience outside ground personal.","estimatedTime":"5 weeks","previewFileId":"81285aa9-84cb-49f6-80a3-f79c1265da4e","createdByUserId":"060cafde-9347-40d7-ae0e-dc718ab8534a"}'

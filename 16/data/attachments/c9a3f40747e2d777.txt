@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE1OjA0OjIyLjY4MTM0NSIsInVzZXJfaWQiOiJkMDJhYjViZi0wNGE0LTQ5NTEtYWQyOS01MjA3MjMyNjg5NDgifQ.2OPFN_lKK5s4BjihvCVbdqR3p358AzlvrNC1S3Jb93A' \
+  -H 'content-length: 326' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tough who final.","courseId":"036e1179-d479-4ddd-a62f-6fe7693be6bf","maxScore":62,"minScore":12,"orderIndex":65,"description":"Left eat authority market although meeting significant none. Him subject rate international must program sure.\nThis heart clear too. Give receive such meet per.","estimatedTime":"4 weeks"}'
