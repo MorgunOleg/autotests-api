@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE0OjU1OjU5Ljc4MjQ3OCIsInVzZXJfaWQiOiI0NDg2ZWE3Mi1mNzlkLTRiOGEtOTRlOS01YjI3MGMwMDQwOTMifQ.VR4gxBHJ35DIQRBHXLydJ7v-GlynTclWD8bPCdu1CVg' \
+  -H 'content-length: 355' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Also work beautiful agreement.","maxScore":57,"minScore":29,"description":"Production might list suggest common college. Along eat affect street.\nSuffer major drop coach. Anything popular have left enjoy.","estimatedTime":"9 weeks","previewFileId":"77bb4054-486e-4b6d-8e5e-61fae1540a4f","createdByUserId":"4486ea72-f79d-4b8a-94e9-5b270c004093"}'

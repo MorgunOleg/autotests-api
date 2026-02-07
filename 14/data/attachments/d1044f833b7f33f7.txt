@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE0OjU2OjAxLjAwMzUxNSIsInVzZXJfaWQiOiJlMWZkMTkyNi1lMjdhLTQwNDItYmYyOC02MWM3MjZjMTA1ZjgifQ.C-_N9aJjK9AFIFdlcu65nIR5ygjyn00l7fmUZQ_RlSg' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Another scene garden agree whether member.","maxScore":100,"minScore":2,"description":"Bill how sign fire eat treatment. Rock minute loss occur market model go. Upon quickly worker hold accept if.","estimatedTime":"5 weeks","previewFileId":"b5b89478-07f3-4cab-a82d-2edbf360a361","createdByUserId":"e1fd1926-e27a-4042-bf28-61c726c105f8"}'

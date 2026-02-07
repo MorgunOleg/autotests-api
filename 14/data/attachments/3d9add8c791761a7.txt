@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE0OjU1OjU3LjQxNjMxMyIsInVzZXJfaWQiOiJjNjJiMDQwYy04MmIyLTQ1MmYtODZlYy05NTc2ZGNmMWFjNjkifQ.SSsxhIpYfVCWgcp7haXsAiwPzBXhAQBoB6GLvPz-qyw' \
+  -H 'content-length: 440' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Push fall something American rather compare fight.","maxScore":71,"minScore":5,"description":"Happen get and guy.\nThrough record worker this. Center price stock environment.\nCourt rather nearly let response rise. Small view staff face wall price debate number. Market body moment western.","estimatedTime":"1 weeks","previewFileId":"50c66f83-7deb-436c-a17f-e2427504ce58","createdByUserId":"c62b040c-82b2-452f-86ec-9576dcf1ac69"}'

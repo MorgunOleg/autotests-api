@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE0OjU1OjU2LjI3NTI0OCIsInVzZXJfaWQiOiI0ZjRmOWZkZC1kNzcyLTRmZDYtYjRkNy1kMGRmYzdkZmIxMzIifQ.9pJtFRLms9zT7jrI8mMYc1MkH84ULzBdWEoa4Vkah5o' \
+  -H 'content-length: 336' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Generation whole above dark consumer occur.","maxScore":62,"minScore":16,"description":"Approach daughter take thus choose walk. Word wrong list. Contain travel whole always wall arrive.","estimatedTime":"9 weeks","previewFileId":"9f5c1c29-e620-4610-a69b-e162dc650651","createdByUserId":"4f4f9fdd-d772-4fd6-b4d7-d0dfc7dfb132"}'

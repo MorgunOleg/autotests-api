@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE0OjU1OjU3LjY4ODkwNiIsInVzZXJfaWQiOiI2ZjA3YjJhMS01YzljLTRiNzAtYTczYS03ZTc4YmYxMmRjM2UifQ.849RaGaT_QuDYXavWJRhKJOW5mrZr3Cr5Th-4vufQlU' \
+  -H 'content-length: 323' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Behind yard total start inside around.","maxScore":54,"minScore":10,"description":"Financial hold bag personal scientist. Cup market compare would. Major fast decision data.","estimatedTime":"9 weeks","previewFileId":"54c50f24-18cc-46fc-86a0-e06c0fed0d64","createdByUserId":"6f07b2a1-5c9c-4b70-a73a-7e78bf12dc3e"}'

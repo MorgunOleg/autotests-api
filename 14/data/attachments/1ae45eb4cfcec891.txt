@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE0OjU1OjU4Ljg4MjUzOCIsInVzZXJfaWQiOiI5M2NhYzM0Yi1mYmZjLTQ2YTMtOTMwZi03ZDRkNjg2MzllMTUifQ.zQwQOsq8lEvVC39bUTsuGQxZI94MolFPBuqmmmwAfe8' \
+  -H 'content-length: 272' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Human first show reach.","maxScore":54,"minScore":23,"description":"Front woman live. Chair before unit try ask far shake.","estimatedTime":"6 weeks","previewFileId":"29ade72a-0617-4eef-a753-ca89e414b526","createdByUserId":"93cac34b-fbfc-46a3-930f-7d4d68639e15"}'

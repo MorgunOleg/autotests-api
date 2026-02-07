@@ -1,0 +1,26 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/exercises?courseId=a1b14d14-56ec-4d26-acc9-4ff688c883e2
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=a1b14d14-56ec-4d26-acc9-4ff688c883e2
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:70 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:74 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:29 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to 0d4686f5-49ca-4053-8dbd-e84a97bb7e8b
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Allow someone listen foreign door true city.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to a1b14d14-56ec-4d26-acc9-4ff688c883e2
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 98
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 5
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 56
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Phone reality in meeting inside full floor.
+Case increase example thousand agree body last. Positive surface close ask mean sort forget. Along this level fact development find forward.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 7 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:35 Validating JSON schema

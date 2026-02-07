@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE0OjU1OjU5Ljc4MjQ3OCIsInVzZXJfaWQiOiI0NDg2ZWE3Mi1mNzlkLTRiOGEtOTRlOS01YjI3MGMwMDQwOTMifQ.VR4gxBHJ35DIQRBHXLydJ7v-GlynTclWD8bPCdu1CVg' \
+  -H 'content-length: 358' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Strong general weight whether black.","courseId":"d2d441a2-47bd-4f4f-a5ea-ea6116f42624","maxScore":72,"minScore":9,"orderIndex":42,"description":"Method watch lawyer power popular whether. Five car young hair yard. Today indeed person include leave.\nFriend per even here only young. Senior police success eye low drive.","estimatedTime":"6 weeks"}'
