@@ -73,7 +73,7 @@ class ExercisesClient(APIClient):
         return self.patch(f"{APIRoutes.EXERCISES}/{exercise_id}", json=request.model_dump(by_alias=True))
 
     @allure.step("Delete exercise by id {exercise_id}")
-    # Добавили сбор покрытия для эндпоинта  DELETE /api/v1/exercises/{exercise_id}
+    # Добавили сбор покрытия для эндпоинта DELETE /api/v1/exercises/{exercise_id}
     @tracker.track_coverage_httpx(f"{APIRoutes.EXERCISES}/{{exercise_id}}")
     def delete_exercise_api(self, exercise_id: str) -> Response:
         """
