@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE1OjAwOjMyLjcyODMyNiIsInVzZXJfaWQiOiJkNzc5NTMxYS01MmEzLTQ1ZWItOTNiMy05ZjIwYzQwMzA1NzEifQ.7mY6vyjZoxxzflfo0P88AqPnqSlT3vxzQMOW8rME8Uk' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Continue establish form less management.","courseId":"2ad6b6fe-2aa9-4d7b-bc6a-630930fcd9be","maxScore":100,"minScore":18,"orderIndex":34,"description":"Eight spring third job. See beat onto list without nothing billion.\nDecision same throw property have. Throw who responsibility case smile exactly professional. Walk democratic then.","estimatedTime":"9 weeks"}'

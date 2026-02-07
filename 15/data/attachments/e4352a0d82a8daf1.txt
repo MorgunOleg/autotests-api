@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE1OjAwOjM1LjIwMzA1NCIsInVzZXJfaWQiOiI4NDY0OTBmMi00NmU0LTQ3MGEtYTZjYS0zNzM4YzI4NGNjZDkifQ.RdvW0YG9YJ39basubK69v9hJAw8B7h7Sbf5ydgsc2E8' \
+  -H 'content-length: 315' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Professional laugh feeling side shake.","maxScore":91,"minScore":25,"description":"Industry might computer as. Buy mother dog throughout budget yard bring establish.","estimatedTime":"5 weeks","previewFileId":"095c885f-2088-48b8-90ad-e791aaf26ddf","createdByUserId":"846490f2-46e4-470a-a6ca-3738c284ccd9"}'

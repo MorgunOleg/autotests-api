@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/f91fc778-c42a-4a57-86b5-cf2a015b131d' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE1OjAwOjMzLjY2MDA1NCIsInVzZXJfaWQiOiI0YzUzNDIwMi0wNzQzLTQxM2QtYTc2ZS1hNDU0M2VjMmU3ZDQifQ.yDvSX9rOJwqn9sOz1uAq_TQh4xYrRiEug8SNcvHf9Vg' \
+  -H 'content-length: 283' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Coach ever charge thank about.","maxScore":59,"minScore":27,"orderIndex":58,"description":"Candidate resource threat special other sound model. Fire low truth voice. Economic point hospital affect some however. Anyone explain religious property.","estimatedTime":"2 weeks"}'

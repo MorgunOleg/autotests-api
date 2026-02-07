@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE1OjAwOjM0LjYyMDA0MCIsInVzZXJfaWQiOiIzZWFmMzg0Yy0yNWJjLTRjMzAtYTUzYy02NDgzYmQzMGRmYzUifQ.VH8QjzBFMqgM1iLLXrmmTbofNJldtuehWnCq5V_iaH8' \
+  -H 'content-length: 435' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Resource thank around art instead remember.","maxScore":84,"minScore":18,"description":"Us drug phone eye threat customer. Tough reflect somebody situation. Six project TV north debate half official bad.\nAuthority military idea record bad. Performance suffer entire several avoid and.","estimatedTime":"4 weeks","previewFileId":"f6090fb5-145a-4709-a51f-4fa59162e3a3","createdByUserId":"3eaf384c-25bc-4c30-a53c-6483bd30dfc5"}'

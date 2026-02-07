@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/09196301-0ed3-44ed-ad7a-8ad55f73c42c' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE1OjAwOjMyLjQ1MzczNSIsInVzZXJfaWQiOiIyN2NlYTlmOS05NzUyLTQ0MzAtODkxZi01NDIxZWM2YTVkNDUifQ.wr4zYX9qD3CODr8ythrKipKdesteuOWXpscVtZONwuo' \
+  -H 'content-length: 287' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Guy there fear teacher.","maxScore":72,"minScore":17,"description":"Sell know whom price ten behind. Decision join term different crime.\nBring between class step so. Remain someone little seek other lay result majority. Road same must sell it also.","estimatedTime":"9 weeks"}'

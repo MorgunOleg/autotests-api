@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE1OjAwOjMzLjY2MDA1NCIsInVzZXJfaWQiOiI0YzUzNDIwMi0wNzQzLTQxM2QtYTc2ZS1hNDU0M2VjMmU3ZDQifQ.yDvSX9rOJwqn9sOz1uAq_TQh4xYrRiEug8SNcvHf9Vg' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Market such off contain against class friend.","maxScore":79,"minScore":4,"description":"Project popular dog edge research. Foreign stuff share PM.\nMuch partner goal able. Speech information capital agency much lawyer throw.","estimatedTime":"6 weeks","previewFileId":"5b415772-a609-44f6-8ba4-0601103e2f78","createdByUserId":"4c534202-0743-413d-a76e-a4543ec2e7d4"}'

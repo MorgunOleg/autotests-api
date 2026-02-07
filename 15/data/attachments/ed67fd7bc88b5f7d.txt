@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE1OjAwOjMyLjQ1MzczNSIsInVzZXJfaWQiOiIyN2NlYTlmOS05NzUyLTQ0MzAtODkxZi01NDIxZWM2YTVkNDUifQ.wr4zYX9qD3CODr8ythrKipKdesteuOWXpscVtZONwuo' \
+  -H 'content-length: 425' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Build shoulder write soon writer buy tend figure.","maxScore":52,"minScore":10,"description":"Adult name professional maybe discover production source. Yard page hand lot. Mr end style.\nLeast agree need oil guy mean.\nAttack voice statement subject health campaign employee.","estimatedTime":"4 weeks","previewFileId":"90569449-b3f2-4292-839f-2ec1acff063f","createdByUserId":"27cea9f9-9752-4430-891f-5421ec6a5d45"}'

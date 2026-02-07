@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE1OjAwOjMzLjkzMzUyMCIsInVzZXJfaWQiOiJmN2EzZmM1Zi03NjdiLTQ0NGUtYjQzYy1iOGVlMmY2ZjI0ZDUifQ.vs-f4Y7ndkMo8wOWOoZxa30oUdYa7b0zQSBOsuZvF04' \
+  -H 'content-length: 355' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Economic item difficult after full final.","maxScore":57,"minScore":14,"description":"Each husband born type position decade story hit. Model something quickly everything base. Out control wonder line own.","estimatedTime":"1 weeks","previewFileId":"aff25cab-d570-4024-b344-cb2c07227a0e","createdByUserId":"f7a3fc5f-767b-444e-b43c-b8ee2f6f24d5"}'

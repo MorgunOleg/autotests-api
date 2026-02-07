@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE1OjAwOjM1LjIwMzA1NCIsInVzZXJfaWQiOiI4NDY0OTBmMi00NmU0LTQ3MGEtYTZjYS0zNzM4YzI4NGNjZDkifQ.RdvW0YG9YJ39basubK69v9hJAw8B7h7Sbf5ydgsc2E8' \
+  -H 'content-length: 319' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Myself understand scientist group staff.","courseId":"ebd1ae0b-f72c-4545-8d48-d4b88ee19282","maxScore":67,"minScore":17,"orderIndex":15,"description":"Author people democratic. Region cell toward less participant current near. Attention green if standard especially us finally let.","estimatedTime":"1 weeks"}'

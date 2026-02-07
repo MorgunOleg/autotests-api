@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE1OjAwOjMyLjcyODMyNiIsInVzZXJfaWQiOiJkNzc5NTMxYS01MmEzLTQ1ZWItOTNiMy05ZjIwYzQwMzA1NzEifQ.7mY6vyjZoxxzflfo0P88AqPnqSlT3vxzQMOW8rME8Uk' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Election media second market brother prepare room.","maxScore":92,"minScore":1,"description":"Key long including common professor section. Figure many board talk design hundred change.","estimatedTime":"2 weeks","previewFileId":"139ca3de-26f0-469f-81fa-3a320c12fd98","createdByUserId":"d779531a-52a3-45eb-93b3-9f20c4030571"}'
