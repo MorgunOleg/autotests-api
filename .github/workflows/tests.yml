@@ -1,4 +1,4 @@
-# Имя вашего workflow, которое будет отображаться в интерфейсе GitHub Actions
+# Определяем имя данного workflow, которое будет отображаться в интерфейсе GitHub Actions
 name: API tests
 
 # Указываем, когда будет запускаться данный workflow
@@ -56,7 +56,37 @@ jobs:
         run: |
           pytest -m regression --alluredir=allure-results --numprocesses=2  # Запускаем тесты, отмеченные как "regression", генерируем результаты для Allure
 
-      # 1.8. Шаг для сохранения папки с результатами тестов как артефакта
+      # 1.8. Шаг для восстанавления истории покрытия тестов из кеша
+      - name: Restore Coverage history
+        uses: actions/cache/restore@v5
+        with:
+          path: coverage-history.json
+          key: coverage-history-${{ github.run_id }}
+          restore-keys: |
+            coverage-history-
+
+      # 1.9. Шаг для генерации HTML-отчета по покрытию и обновления истории
+      - name: Generate Coverage report
+        run: |
+          swagger-coverage-tool save-report
+
+      # 1.10. Шаг для сохранения истории по покрытию обратно в кеш
+      - name: Cache Coverage history
+        if: always()
+        uses: actions/cache/save@v5
+        with:
+          path: coverage-history.json
+          key: coverage-history-${{ github.run_id }}
+
+      # 1.11. Шаг для загрузки HTML-отчета как артефакта
+      - name: Upload Coverage report
+        if: always()
+        uses: actions/upload-artifact@v6
+        with:
+          name: coverage-report
+          path: coverage.html
+
+      # 1.12. Шаг для сохранения папки с результатами тестов как артефакта
       - name: Upload allure-results artefact
         if: always()
         uses: actions/upload-artifact@v6
@@ -66,7 +96,7 @@ jobs:
 
   publish-report:
     if: always()
-    needs: run-tests
+    needs: [ run-tests ]
     runs-on: ubuntu-latest
 
     steps:
