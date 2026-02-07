@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/e20c3460-8136-4ef1-a4f5-4a8a171a7462' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDA4OjU0OjE0LjQyMjE1NCIsInVzZXJfaWQiOiI0ZWE4MGU5Ny02MzMyLTQ4M2MtOGFiMi04Mjg4ODk5N2Y4YzAifQ.oTF04gH1fuTsr_Hjn-7IhUrv1K6tY7DYN7SpZMcF9Zs' \
+  -H 'content-length: 268' \
+  -H 'content-type: application/json' \
+  -d '{"title":"For movie would material surface.","maxScore":84,"minScore":12,"orderIndex":21,"description":"Level per specific space talk little. They environmental activity information. Large general reflect investment approach computer page.","estimatedTime":"10 weeks"}'

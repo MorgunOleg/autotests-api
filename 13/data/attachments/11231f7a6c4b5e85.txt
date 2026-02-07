@@ -1,0 +1,22 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:53 Check create course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Soldier cover scene summer subject also challenge member.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 84
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 8
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Mean face friend. Evidence authority staff why. Different season individual opportunity head.
+Arrive just teacher office get fish property these. Think simple speech site peace contain.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 1 weeks
+INFO     BASE_ASSERTIONS:base.py:38 Check that "preview_file_id" equals to 40e0509a-9e9d-4459-8c9b-1c1f594d420a
+INFO     BASE_ASSERTIONS:base.py:38 Check that "created_by_user_id" equals to 8daac285-c3a7-4ada-87de-5c0f9bfe3e8e
+INFO     SCHEMA_ASSERTIONS:schema.py:35 Validating JSON schema

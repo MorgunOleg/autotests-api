@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDA4OjU0OjE0LjE0ODU3NyIsInVzZXJfaWQiOiIyNmJiZjQ5Mi1hYTY4LTQxNjUtOWY4Ni0xOTAzZWE2Y2NjNWEifQ.3gdAY2NfPWTdSJNcpQhLPoPVS9u8rRDjiMCXlIa5-eM' \
+  -H 'content-length: 422' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Woman toward allow safe wish from recognize reveal.","maxScore":96,"minScore":29,"description":"Reveal food line per. Data gun traditional. Him alone style nothing idea network box.\nPicture song operation his something if mention. Part energy according stock soldier buy.","estimatedTime":"2 weeks","previewFileId":"8a6a38a2-2010-4fc3-9e77-a7021132a80b","createdByUserId":"26bbf492-aa68-4165-9f86-1903ea6ccc5a"}'
